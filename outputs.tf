@@ -1,3 +1,23 @@
 output "regions" {
-  value = local.regions_data_merged
+  value       = local.regions_data_merged
+  description = <<DESCRIPTION
+A list of region objects. Each region object contains the following attributes:
+
+- `name` - The name of the region.
+- `display_name` - The display name of the region.
+- `paired_region_name` - The name of the region paired with this region. May be `null` if the region has no pair.
+- `geography` - The geography of the region.
+- `geography_group` - The geography group of the region.
+- `zones` - A list of the availability zones in the region. Will be empty if the region does not support zones.
+DESCRIPTION
+}
+
+output "regions_by_name" {
+  value       = local.regions_by_name
+  description = "A map of region display names to region objects. See `regions` output for more details."
+}
+
+output "regions_by_display_name" {
+  value       = local.regions_by_display_name
+  description = "A map of region display names to region objects. See `regions` output for more details."
 }
