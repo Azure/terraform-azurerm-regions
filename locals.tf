@@ -22,4 +22,19 @@ locals {
   ]
   regions_by_name         = { for v in local.regions_data_merged : v.name => v }
   regions_by_display_name = { for v in local.regions_data_merged : v.display_name => v }
+
+  geos       = distinct([for v in local.regions_data_merged : v.geography])
+  geo_groups = distinct([for v in local.regions_data_merged : v.geography_group])
+
+  regions_by_geography = {
+    for geo in local.geos : geo => [
+      for v in local.regions_data_merged : v if v.geography == geo
+    ]
+  }
+
+  regions_by_geography_group = {
+    for geo_group in local.geo_groups : geo_group => [
+      for v in local.regions_data_merged : v if v.geography_group == geo_group
+    ]
+  }
 }
