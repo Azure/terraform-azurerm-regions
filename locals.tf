@@ -1,8 +1,12 @@
 locals {
-  regions_zonemappings = flatten([for v in jsondecode(data.azapi_resource_action.compute_provider.output).resourceTypes : v.zoneMappings if v.resourceType == "virtualMachines"])
+
+  regions_zonemappings_cached_or_live = var.use_cached_data ? data.local_file.compute_provider.content : one(data.azapi_resource_action.compute_provider).output
+  locations_cached_or_live            = var.use_cached_data ? data.local_file.locations.content : one(data.azapi_resource_action.locations).output
+
+  regions_zonemappings = flatten([for v in jsondecode(local.regions_zonemappings_cached_or_live).resourceTypes : v.zoneMappings if v.resourceType == "virtualMachines"])
   regions_to_zones_map = { for v in local.regions_zonemappings : v.location => v.zones }
   regions_data_merged = [
-    for v in jsondecode(data.azapi_resource_action.locations.output).value :
+    for v in jsondecode(local.locations_cached_or_live).value :
     merge(
       {
         name               = v.name

@@ -63,7 +63,7 @@ jobs:
           fi
         working-directory: ${{ github.workspace }}/data
 
-      - name: commit changes
+      - name: commit changes & create PR
         run: |
           if [[ -n $(git status -suno) ]]; then
             git commit -m "Update data" -a
