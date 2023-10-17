@@ -72,3 +72,5 @@ jobs:
             git push origin update${{ github.run_id }}
             gh pr create --title "feat: update data from Azure" --body "Updated from GH run id: ${{ github.run_id }}" --base main --head update${{ github.run_id }}
           fi
+        env:
+          GH_TOKEN: ${{ github.token }}
