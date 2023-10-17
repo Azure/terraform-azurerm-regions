@@ -1,0 +1,72 @@
+name: update-data
+
+on:
+  schedule:
+    - cron: '15 4 * * 0'
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  update:
+    environment: test
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-go@v4
+        with:
+          go-version: 'stable'
+
+      - name: install jd
+        run: |
+          go install github.com/josephburnett/jd@v1.7.1
+
+      - uses: azure/login@v1
+        with:
+          client-id: ${{ vars.AZURE_CLIENT_ID }}
+          tenant-id: ${{ vars.AZURE_TENANT_ID }}
+          subscription-id: ${{ vars.AZURE_SUBSCRIPTION_ID }}
+
+      - name: checkout branch
+        run: |
+          git config --global user.name "GitHub Actions"
+          git config --global user.email "actions@github.com"
+          git checkout -b update${{ github.run_id }}
+
+      - name: update locations data
+        run: |
+          cp locations.json locations.original.json
+          az rest --method GET --uri /locations?api-version=2023-07-01 | jq '{ "value": .value}' > locations.json
+        working-directory: ${{ github.workspace }}/data
+
+      - name: update compute provider data
+        run: |
+          cp microsoft.compute_resourceTypes.json microsoft.compute_resourceTypes.original.json
+          az rest --method GET --uri /subscriptions/${{ vars.AZURE_SUBSCRIPTION_ID }}/providers/Microsoft.Compute?api-version=2022-12-01 | jq '{ "resourceTypes": .resourceTypes}' > microsoft.compute_resourceTypes.json
+        working-directory: ${{ github.workspace }}/data
+
+      - name: deep compare locations data
+        run: |
+          if ! jd -set locations.original.json locations.json; then
+            echo "locations.json has changed"
+            git add locations.json
+          fi
+        working-directory: ${{ github.workspace }}/data
+
+      - name: deep compare compute provider data
+        run: |
+          if ! jd -set microsoft.compute_resourceTypes.original.json microsoft.compute_resourceTypes.json; then
+            echo "microsoft.compute_resourceTypes.json has changed"
+            git add microsoft.compute_resourceTypes.json
+          fi
+        working-directory: ${{ github.workspace }}/data
+
+      - name: commit changes
+        run: |
+          if [[ -n $(git status -suno) ]]; then
+            git commit -m "Update data" -a
+            git push origin update${{ github.run_id }}
+            gh pr create --title "feat: update data from Azure" --body "Updated from GH run id: ${{ github.run_id }}" --base main --head update${{ github.run_id }}
+          fi
