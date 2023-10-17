@@ -54,6 +54,7 @@ jobs:
           if ! jd -set locations.original.json locations.json; then
             echo "locations.json has changed"
             git add locations.json
+            echo UPDATED=1 >> "$GITHUB_ENV"
           fi
         working-directory: ${{ github.workspace }}/data
 
@@ -62,15 +63,17 @@ jobs:
           if ! jd -set microsoft.compute_resourceTypes.original.json microsoft.compute_resourceTypes.json; then
             echo "microsoft.compute_resourceTypes.json has changed"
             git add microsoft.compute_resourceTypes.json
+            echo UPDATED=1 >> "$GITHUB_ENV"
           fi
         working-directory: ${{ github.workspace }}/data
 
       - name: commit changes & create PR
         run: |
           if [[ -n $(git status -suno) ]]; then
-            git commit -m "Update data" -a
+            git commit -m "feat: update data from Azure"
             git push origin update${{ github.run_id }}
             gh pr create --title "feat: update data from Azure" --body "Updated from GH run id: ${{ github.run_id }}" --base main --head update${{ github.run_id }}
           fi
+        if: env.UPDATED == '1'
         env:
           GH_TOKEN: ${{ github.token }}
