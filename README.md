@@ -46,9 +46,9 @@ The following providers are used by this module:
 
 - <a name="provider_azapi"></a> [azapi](#provider\_azapi) (1.9.0)
 
-- <a name="provider_azurerm"></a> [azurerm](#provider\_azurerm) (3.76.0)
+- <a name="provider_azurerm"></a> [azurerm](#provider\_azurerm) (3.75.0)
 
-- <a name="provider_local"></a> [local](#provider\_local) (2.4.0)
+- <a name="provider_local"></a> [local](#provider\_local) (>= 2.4.0)
 
 ## Resources
 
@@ -68,6 +68,14 @@ No required inputs.
 ## Optional Inputs
 
 The following input variables are optional (have default values):
+
+### <a name="input_recommended_regions_only"></a> [recommended\_regions\_only](#input\_recommended\_regions\_only)
+
+Description: If true, the module will only return regions that are have the category set to `Recommended` by the locations API.
+
+Type: `bool`
+
+Default: `true`
 
 ### <a name="input_use_cached_data"></a> [use\_cached\_data](#input\_use\_cached\_data)
 

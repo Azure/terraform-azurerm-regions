@@ -14,27 +14,31 @@ locals {
         paired_region_name = try(one(v.metadata.pairedRegion).name, null)
         geography          = v.metadata.geography
         geography_group    = v.metadata.geographyGroup
+        recommended        = v.metadata.regionCategory == "Recommended"
       },
       {
         zones = sort(lookup(local.regions_to_zones_map, v.displayName, []))
       }
     ) if v.metadata.regionType == "Physical"
   ]
-  regions_by_name         = { for v in local.regions_data_merged : v.name => v }
-  regions_by_display_name = { for v in local.regions_data_merged : v.display_name => v }
 
-  geos       = distinct([for v in local.regions_data_merged : v.geography])
-  geo_groups = distinct([for v in local.regions_data_merged : v.geography_group])
+  regions_recommended_or_not = var.recommended_regions_only ? [for v in local.regions_data_merged : v if v.recommended] : local.regions_data_merged
+
+  regions_by_name         = { for v in local.regions_recommended_or_not : v.name => v }
+  regions_by_display_name = { for v in local.regions_recommended_or_not : v.display_name => v }
+
+  geos       = distinct([for v in local.regions_recommended_or_not : v.geography])
+  geo_groups = distinct([for v in local.regions_recommended_or_not : v.geography_group])
 
   regions_by_geography = {
     for geo in local.geos : geo => [
-      for v in local.regions_data_merged : v if v.geography == geo
+      for v in local.regions_recommended_or_not : v if v.geography == geo
     ]
   }
 
   regions_by_geography_group = {
     for geo_group in local.geo_groups : geo_group => [
-      for v in local.regions_data_merged : v if v.geography_group == geo_group
+      for v in local.regions_recommended_or_not : v if v.geography_group == geo_group
     ]
   }
 }
