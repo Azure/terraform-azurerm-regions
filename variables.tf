@@ -11,3 +11,11 @@ Using data from the Azure APIs means that if the API response changes, then the 
 This may affect deployed resources that rely on this data.
 DESCRIPTION
 }
+
+variable "recommended_regions_only" {
+  type        = bool
+  default     = true
+  description = <<DESCRIPTION
+If true, the module will only return regions that are have the category set to `Recommended` by the locations API.
+DESCRIPTION
+}

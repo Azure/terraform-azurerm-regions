@@ -1,5 +1,5 @@
 output "regions" {
-  value       = local.regions_data_merged
+  value       = local.regions_recommended_or_not
   description = <<DESCRIPTION
 A list of region objects. Each region object contains the following attributes:
 
