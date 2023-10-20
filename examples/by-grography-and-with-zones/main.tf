@@ -11,6 +11,7 @@ module "regions" {
   source = "../../"
 }
 
+# This local variable is used to filter out regions in the United States that do not have zones.
 locals {
   us_regions_with_zones = [
     for v in module.regions.regions_by_geography["United States"] : v if length(v.zones) > 1
