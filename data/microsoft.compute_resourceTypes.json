@@ -24,6 +24,7 @@
         }
       ],
       "apiVersions": [
+        "2023-09-01",
         "2023-07-01",
         "2023-03-01",
         "2022-11-01",
@@ -118,6 +119,7 @@
         }
       ],
       "apiVersions": [
+        "2023-09-01",
         "2023-07-01",
         "2023-03-01",
         "2022-11-01",
@@ -191,96 +193,96 @@
         {
           "location": "Australia East",
           "zones": [
-            "3",
             "1",
+            "3",
             "2"
           ]
         },
         {
           "location": "Brazil South",
           "zones": [
-            "3",
             "1",
+            "3",
             "2"
           ]
         },
         {
           "location": "Canada Central",
           "zones": [
-            "3",
             "1",
+            "3",
             "2"
           ]
         },
         {
           "location": "Central India",
           "zones": [
-            "3",
             "1",
+            "3",
             "2"
           ]
         },
         {
           "location": "Central US",
           "zones": [
-            "3",
             "1",
+            "3",
             "2"
           ]
         },
         {
           "location": "East Asia",
           "zones": [
-            "3",
             "1",
+            "3",
             "2"
           ]
         },
         {
           "location": "East US",
           "zones": [
-            "3",
             "1",
+            "3",
             "2"
           ]
         },
         {
           "location": "East US 2",
           "zones": [
-            "3",
             "1",
+            "3",
             "2"
           ]
         },
         {
           "location": "France Central",
           "zones": [
-            "3",
             "1",
+            "3",
             "2"
           ]
         },
         {
           "location": "Germany West Central",
           "zones": [
-            "3",
             "1",
+            "3",
             "2"
           ]
         },
         {
           "location": "Japan East",
           "zones": [
-            "3",
             "1",
+            "3",
             "2"
           ]
         },
         {
           "location": "Korea Central",
           "zones": [
-            "3",
             "1",
+            "3",
             "2"
           ]
         },
@@ -291,96 +293,88 @@
         {
           "location": "North Europe",
           "zones": [
-            "3",
             "1",
+            "3",
             "2"
           ]
         },
         {
           "location": "Norway East",
           "zones": [
-            "3",
             "1",
-            "2"
-          ]
-        },
-        {
-          "location": "Poland Central",
-          "zones": [
             "3",
-            "1",
             "2"
           ]
         },
         {
           "location": "Qatar Central",
           "zones": [
-            "3",
             "1",
+            "3",
             "2"
           ]
         },
         {
           "location": "South Africa North",
           "zones": [
-            "3",
             "1",
+            "3",
             "2"
           ]
         },
         {
           "location": "South Central US",
           "zones": [
-            "3",
             "1",
+            "3",
             "2"
           ]
         },
         {
           "location": "Southeast Asia",
           "zones": [
-            "3",
             "1",
+            "3",
             "2"
           ]
         },
         {
           "location": "Sweden Central",
           "zones": [
-            "3",
             "1",
+            "3",
             "2"
           ]
         },
         {
           "location": "Switzerland North",
           "zones": [
-            "3",
             "1",
+            "3",
             "2"
           ]
         },
         {
           "location": "UAE North",
           "zones": [
-            "3",
             "1",
+            "3",
             "2"
           ]
         },
         {
           "location": "UK South",
           "zones": [
-            "3",
             "1",
+            "3",
             "2"
           ]
         },
         {
           "location": "West Europe",
           "zones": [
-            "3",
             "1",
+            "3",
             "2"
           ]
         },
@@ -391,32 +385,40 @@
         {
           "location": "West US 2",
           "zones": [
-            "3",
             "1",
+            "3",
             "2"
           ]
         },
         {
           "location": "West US 3",
           "zones": [
-            "3",
             "1",
+            "3",
             "2"
           ]
         },
         {
           "location": "Israel Central",
           "zones": [
-            "3",
             "1",
+            "3",
             "2"
           ]
         },
         {
           "location": "Italy North",
           "zones": [
-            "3",
             "1",
+            "3",
+            "2"
+          ]
+        },
+        {
+          "location": "Poland Central",
+          "zones": [
+            "1",
+            "3",
             "2"
           ]
         }
@@ -446,6 +448,7 @@
         }
       ],
       "apiVersions": [
+        "2023-09-01",
         "2023-07-01",
         "2023-03-01",
         "2022-11-01",
@@ -540,6 +543,7 @@
         }
       ],
       "apiVersions": [
+        "2023-09-01",
         "2023-07-01",
         "2023-03-01",
         "2022-11-01",
@@ -614,96 +618,96 @@
         {
           "location": "Australia East",
           "zones": [
-            "3",
             "1",
+            "3",
             "2"
           ]
         },
         {
           "location": "Brazil South",
           "zones": [
-            "3",
             "1",
+            "3",
             "2"
           ]
         },
         {
           "location": "Canada Central",
           "zones": [
-            "3",
             "1",
+            "3",
             "2"
           ]
         },
         {
           "location": "Central India",
           "zones": [
-            "3",
             "1",
+            "3",
             "2"
           ]
         },
         {
           "location": "Central US",
           "zones": [
-            "3",
             "1",
+            "3",
             "2"
           ]
         },
         {
           "location": "East Asia",
           "zones": [
-            "3",
             "1",
+            "3",
             "2"
           ]
         },
         {
           "location": "East US",
           "zones": [
-            "3",
             "1",
+            "3",
             "2"
           ]
         },
         {
           "location": "East US 2",
           "zones": [
-            "3",
             "1",
+            "3",
             "2"
           ]
         },
         {
           "location": "France Central",
           "zones": [
-            "3",
             "1",
+            "3",
             "2"
           ]
         },
         {
           "location": "Germany West Central",
           "zones": [
-            "3",
             "1",
+            "3",
             "2"
           ]
         },
         {
           "location": "Japan East",
           "zones": [
-            "3",
             "1",
+            "3",
             "2"
           ]
         },
         {
           "location": "Korea Central",
           "zones": [
-            "3",
             "1",
+            "3",
             "2"
           ]
         },
@@ -714,96 +718,88 @@
         {
           "location": "North Europe",
           "zones": [
-            "3",
             "1",
+            "3",
             "2"
           ]
         },
         {
           "location": "Norway East",
           "zones": [
-            "3",
             "1",
-            "2"
-          ]
-        },
-        {
-          "location": "Poland Central",
-          "zones": [
             "3",
-            "1",
             "2"
           ]
         },
         {
           "location": "Qatar Central",
           "zones": [
-            "3",
             "1",
+            "3",
             "2"
           ]
         },
         {
           "location": "South Africa North",
           "zones": [
-            "3",
             "1",
+            "3",
             "2"
           ]
         },
         {
           "location": "South Central US",
           "zones": [
-            "3",
             "1",
+            "3",
             "2"
           ]
         },
         {
           "location": "Southeast Asia",
           "zones": [
-            "3",
             "1",
+            "3",
             "2"
           ]
         },
         {
           "location": "Sweden Central",
           "zones": [
-            "3",
             "1",
+            "3",
             "2"
           ]
         },
         {
           "location": "Switzerland North",
           "zones": [
-            "3",
             "1",
+            "3",
             "2"
           ]
         },
         {
           "location": "UAE North",
           "zones": [
-            "3",
             "1",
+            "3",
             "2"
           ]
         },
         {
           "location": "UK South",
           "zones": [
-            "3",
             "1",
+            "3",
             "2"
           ]
         },
         {
           "location": "West Europe",
           "zones": [
-            "3",
             "1",
+            "3",
             "2"
           ]
         },
@@ -814,32 +810,40 @@
         {
           "location": "West US 2",
           "zones": [
-            "3",
             "1",
+            "3",
             "2"
           ]
         },
         {
           "location": "West US 3",
           "zones": [
-            "3",
             "1",
+            "3",
             "2"
           ]
         },
         {
           "location": "Israel Central",
           "zones": [
-            "3",
             "1",
+            "3",
             "2"
           ]
         },
         {
           "location": "Italy North",
           "zones": [
-            "3",
             "1",
+            "3",
+            "2"
+          ]
+        },
+        {
+          "location": "Poland Central",
+          "zones": [
+            "1",
+            "3",
             "2"
           ]
         }
@@ -869,6 +873,7 @@
         }
       ],
       "apiVersions": [
+        "2023-09-01",
         "2023-07-01",
         "2023-03-01",
         "2022-11-01",
@@ -964,6 +969,7 @@
         }
       ],
       "apiVersions": [
+        "2023-09-01",
         "2023-07-01",
         "2023-03-01",
         "2022-11-01",
@@ -1059,6 +1065,7 @@
         }
       ],
       "apiVersions": [
+        "2023-09-01",
         "2023-07-01",
         "2023-03-01",
         "2022-11-01",
@@ -1153,6 +1160,7 @@
         }
       ],
       "apiVersions": [
+        "2023-09-01",
         "2023-07-01",
         "2023-03-01",
         "2022-11-01",
@@ -1249,6 +1257,7 @@
         }
       ],
       "apiVersions": [
+        "2023-09-01",
         "2023-07-01",
         "2023-03-01",
         "2022-11-01",
@@ -1341,6 +1350,7 @@
         }
       ],
       "apiVersions": [
+        "2023-09-01",
         "2023-07-01",
         "2023-03-01",
         "2022-11-01",
@@ -1407,6 +1417,7 @@
     },
     {
       "apiVersions": [
+        "2023-09-01",
         "2023-07-01",
         "2023-03-01",
         "2022-11-01",
@@ -1460,6 +1471,7 @@
         }
       ],
       "apiVersions": [
+        "2023-09-01",
         "2023-07-01",
         "2023-03-01",
         "2022-11-01",
@@ -1554,6 +1566,7 @@
         }
       ],
       "apiVersions": [
+        "2023-09-01",
         "2023-07-01",
         "2023-03-01",
         "2022-11-01",
@@ -1643,6 +1656,7 @@
         }
       ],
       "apiVersions": [
+        "2023-09-01",
         "2023-07-01",
         "2023-03-01",
         "2022-11-01",
@@ -1727,6 +1741,7 @@
         }
       ],
       "apiVersions": [
+        "2023-09-01",
         "2023-07-01",
         "2023-03-01",
         "2022-11-01",
@@ -1813,6 +1828,7 @@
         }
       ],
       "apiVersions": [
+        "2023-09-01",
         "2023-07-01",
         "2023-03-01",
         "2022-11-01",
@@ -1903,6 +1919,7 @@
         }
       ],
       "apiVersions": [
+        "2023-09-01",
         "2023-07-03",
         "2023-07-01",
         "2023-03-01",
@@ -1979,6 +1996,7 @@
     },
     {
       "apiVersions": [
+        "2023-09-01",
         "2023-07-01",
         "2023-03-01",
         "2022-11-01",
@@ -2049,6 +2067,7 @@
     },
     {
       "apiVersions": [
+        "2023-09-01",
         "2023-07-01",
         "2023-03-01",
         "2022-11-01",
@@ -2109,6 +2128,7 @@
     },
     {
       "apiVersions": [
+        "2023-09-01",
         "2023-07-01",
         "2023-03-01",
         "2022-11-01",
@@ -2164,6 +2184,7 @@
     },
     {
       "apiVersions": [
+        "2023-09-01",
         "2023-07-01",
         "2023-03-01",
         "2022-11-01",
@@ -2219,6 +2240,7 @@
     },
     {
       "apiVersions": [
+        "2023-09-01",
         "2023-07-01",
         "2023-03-01",
         "2022-11-01",
@@ -2236,6 +2258,7 @@
     },
     {
       "apiVersions": [
+        "2023-09-01",
         "2023-07-01",
         "2023-03-01",
         "2022-11-01",
@@ -2293,6 +2316,7 @@
     },
     {
       "apiVersions": [
+        "2023-09-01",
         "2023-07-01",
         "2023-03-01",
         "2022-11-01",
@@ -2350,6 +2374,7 @@
     },
     {
       "apiVersions": [
+        "2023-09-01",
         "2023-07-01",
         "2023-03-01",
         "2022-11-01",
@@ -2417,6 +2442,7 @@
     },
     {
       "apiVersions": [
+        "2023-09-01",
         "2023-07-01",
         "2023-03-01",
         "2022-11-01",
@@ -2483,6 +2509,7 @@
     },
     {
       "apiVersions": [
+        "2023-09-01",
         "2023-07-01",
         "2023-03-01",
         "2022-11-01",
@@ -2549,96 +2576,96 @@
         {
           "location": "Australia East",
           "zones": [
-            "3",
             "1",
+            "3",
             "2"
           ]
         },
         {
           "location": "Brazil South",
           "zones": [
-            "3",
             "1",
+            "3",
             "2"
           ]
         },
         {
           "location": "Canada Central",
           "zones": [
-            "3",
             "1",
+            "3",
             "2"
           ]
         },
         {
           "location": "Central India",
           "zones": [
-            "3",
             "1",
+            "3",
             "2"
           ]
         },
         {
           "location": "Central US",
           "zones": [
-            "3",
             "1",
+            "3",
             "2"
           ]
         },
         {
           "location": "East Asia",
           "zones": [
-            "3",
             "1",
+            "3",
             "2"
           ]
         },
         {
           "location": "East US",
           "zones": [
-            "3",
             "1",
+            "3",
             "2"
           ]
         },
         {
           "location": "East US 2",
           "zones": [
-            "3",
             "1",
+            "3",
             "2"
           ]
         },
         {
           "location": "France Central",
           "zones": [
-            "3",
             "1",
+            "3",
             "2"
           ]
         },
         {
           "location": "Germany West Central",
           "zones": [
-            "3",
             "1",
+            "3",
             "2"
           ]
         },
         {
           "location": "Japan East",
           "zones": [
-            "3",
             "1",
+            "3",
             "2"
           ]
         },
         {
           "location": "Korea Central",
           "zones": [
-            "3",
             "1",
+            "3",
             "2"
           ]
         },
@@ -2649,96 +2676,88 @@
         {
           "location": "North Europe",
           "zones": [
-            "3",
             "1",
+            "3",
             "2"
           ]
         },
         {
           "location": "Norway East",
           "zones": [
-            "3",
             "1",
-            "2"
-          ]
-        },
-        {
-          "location": "Poland Central",
-          "zones": [
             "3",
-            "1",
             "2"
           ]
         },
         {
           "location": "Qatar Central",
           "zones": [
-            "3",
             "1",
+            "3",
             "2"
           ]
         },
         {
           "location": "South Africa North",
           "zones": [
-            "3",
             "1",
+            "3",
             "2"
           ]
         },
         {
           "location": "South Central US",
           "zones": [
-            "3",
             "1",
+            "3",
             "2"
           ]
         },
         {
           "location": "Southeast Asia",
           "zones": [
-            "3",
             "1",
+            "3",
             "2"
           ]
         },
         {
           "location": "Sweden Central",
           "zones": [
-            "3",
             "1",
+            "3",
             "2"
           ]
         },
         {
           "location": "Switzerland North",
           "zones": [
-            "3",
             "1",
+            "3",
             "2"
           ]
         },
         {
           "location": "UAE North",
           "zones": [
-            "3",
             "1",
+            "3",
             "2"
           ]
         },
         {
           "location": "UK South",
           "zones": [
-            "3",
             "1",
+            "3",
             "2"
           ]
         },
         {
           "location": "West Europe",
           "zones": [
-            "3",
             "1",
+            "3",
             "2"
           ]
         },
@@ -2749,32 +2768,40 @@
         {
           "location": "West US 2",
           "zones": [
-            "3",
             "1",
+            "3",
             "2"
           ]
         },
         {
           "location": "West US 3",
           "zones": [
-            "3",
             "1",
+            "3",
             "2"
           ]
         },
         {
           "location": "Israel Central",
           "zones": [
-            "3",
             "1",
+            "3",
             "2"
           ]
         },
         {
           "location": "Italy North",
           "zones": [
-            "3",
             "1",
+            "3",
+            "2"
+          ]
+        },
+        {
+          "location": "Poland Central",
+          "zones": [
+            "1",
+            "3",
             "2"
           ]
         }
@@ -2782,6 +2809,7 @@
     },
     {
       "apiVersions": [
+        "2023-09-01",
         "2023-07-01",
         "2023-03-01",
         "2022-11-01",
@@ -2842,6 +2870,7 @@
     },
     {
       "apiVersions": [
+        "2023-09-01",
         "2023-07-01",
         "2023-03-01",
         "2022-11-01",
@@ -2902,96 +2931,96 @@
         {
           "location": "Australia East",
           "zones": [
-            "3",
             "1",
+            "3",
             "2"
           ]
         },
         {
           "location": "Brazil South",
           "zones": [
-            "3",
             "1",
+            "3",
             "2"
           ]
         },
         {
           "location": "Canada Central",
           "zones": [
-            "3",
             "1",
+            "3",
             "2"
           ]
         },
         {
           "location": "Central India",
           "zones": [
-            "3",
             "1",
+            "3",
             "2"
           ]
         },
         {
           "location": "Central US",
           "zones": [
-            "3",
             "1",
+            "3",
             "2"
           ]
         },
         {
           "location": "East Asia",
           "zones": [
-            "3",
             "1",
+            "3",
             "2"
           ]
         },
         {
           "location": "East US",
           "zones": [
-            "3",
             "1",
+            "3",
             "2"
           ]
         },
         {
           "location": "East US 2",
           "zones": [
-            "3",
             "1",
+            "3",
             "2"
           ]
         },
         {
           "location": "France Central",
           "zones": [
-            "3",
             "1",
+            "3",
             "2"
           ]
         },
         {
           "location": "Germany West Central",
           "zones": [
-            "3",
             "1",
+            "3",
             "2"
           ]
         },
         {
           "location": "Japan East",
           "zones": [
-            "3",
             "1",
+            "3",
             "2"
           ]
         },
         {
           "location": "Korea Central",
           "zones": [
-            "3",
             "1",
+            "3",
             "2"
           ]
         },
@@ -3002,96 +3031,88 @@
         {
           "location": "North Europe",
           "zones": [
-            "3",
             "1",
+            "3",
             "2"
           ]
         },
         {
           "location": "Norway East",
           "zones": [
-            "3",
             "1",
-            "2"
-          ]
-        },
-        {
-          "location": "Poland Central",
-          "zones": [
             "3",
-            "1",
             "2"
           ]
         },
         {
           "location": "Qatar Central",
           "zones": [
-            "3",
             "1",
+            "3",
             "2"
           ]
         },
         {
           "location": "South Africa North",
           "zones": [
-            "3",
             "1",
+            "3",
             "2"
           ]
         },
         {
           "location": "South Central US",
           "zones": [
-            "3",
             "1",
+            "3",
             "2"
           ]
         },
         {
           "location": "Southeast Asia",
           "zones": [
-            "3",
             "1",
+            "3",
             "2"
           ]
         },
         {
           "location": "Sweden Central",
           "zones": [
-            "3",
             "1",
+            "3",
             "2"
           ]
         },
         {
           "location": "Switzerland North",
           "zones": [
-            "3",
             "1",
+            "3",
             "2"
           ]
         },
         {
           "location": "UAE North",
           "zones": [
-            "3",
             "1",
+            "3",
             "2"
           ]
         },
         {
           "location": "UK South",
           "zones": [
-            "3",
             "1",
+            "3",
             "2"
           ]
         },
         {
           "location": "West Europe",
           "zones": [
-            "3",
             "1",
+            "3",
             "2"
           ]
         },
@@ -3102,32 +3123,40 @@
         {
           "location": "West US 2",
           "zones": [
-            "3",
             "1",
+            "3",
             "2"
           ]
         },
         {
           "location": "West US 3",
           "zones": [
-            "3",
             "1",
+            "3",
             "2"
           ]
         },
         {
           "location": "Israel Central",
           "zones": [
-            "3",
             "1",
+            "3",
             "2"
           ]
         },
         {
           "location": "Italy North",
           "zones": [
-            "3",
             "1",
+            "3",
+            "2"
+          ]
+        },
+        {
+          "location": "Poland Central",
+          "zones": [
+            "1",
+            "3",
             "2"
           ]
         }
@@ -3135,6 +3164,7 @@
     },
     {
       "apiVersions": [
+        "2023-09-01",
         "2023-07-01",
         "2023-03-01",
         "2022-11-01",
@@ -3195,96 +3225,96 @@
         {
           "location": "Australia East",
           "zones": [
-            "3",
             "1",
+            "3",
             "2"
           ]
         },
         {
           "location": "Brazil South",
           "zones": [
-            "3",
             "1",
+            "3",
             "2"
           ]
         },
         {
           "location": "Canada Central",
           "zones": [
-            "3",
             "1",
+            "3",
             "2"
           ]
         },
         {
           "location": "Central India",
           "zones": [
-            "3",
             "1",
+            "3",
             "2"
           ]
         },
         {
           "location": "Central US",
           "zones": [
-            "3",
             "1",
+            "3",
             "2"
           ]
         },
         {
           "location": "East Asia",
           "zones": [
-            "3",
             "1",
+            "3",
             "2"
           ]
         },
         {
           "location": "East US",
           "zones": [
-            "3",
             "1",
+            "3",
             "2"
           ]
         },
         {
           "location": "East US 2",
           "zones": [
-            "3",
             "1",
+            "3",
             "2"
           ]
         },
         {
           "location": "France Central",
           "zones": [
-            "3",
             "1",
+            "3",
             "2"
           ]
         },
         {
           "location": "Germany West Central",
           "zones": [
-            "3",
             "1",
+            "3",
             "2"
           ]
         },
         {
           "location": "Japan East",
           "zones": [
-            "3",
             "1",
+            "3",
             "2"
           ]
         },
         {
           "location": "Korea Central",
           "zones": [
-            "3",
             "1",
+            "3",
             "2"
           ]
         },
@@ -3295,96 +3325,88 @@
         {
           "location": "North Europe",
           "zones": [
-            "3",
             "1",
+            "3",
             "2"
           ]
         },
         {
           "location": "Norway East",
           "zones": [
-            "3",
             "1",
-            "2"
-          ]
-        },
-        {
-          "location": "Poland Central",
-          "zones": [
             "3",
-            "1",
             "2"
           ]
         },
         {
           "location": "Qatar Central",
           "zones": [
-            "3",
             "1",
+            "3",
             "2"
           ]
         },
         {
           "location": "South Africa North",
           "zones": [
-            "3",
             "1",
+            "3",
             "2"
           ]
         },
         {
           "location": "South Central US",
           "zones": [
-            "3",
             "1",
+            "3",
             "2"
           ]
         },
         {
           "location": "Southeast Asia",
           "zones": [
-            "3",
             "1",
+            "3",
             "2"
           ]
         },
         {
           "location": "Sweden Central",
           "zones": [
-            "3",
             "1",
+            "3",
             "2"
           ]
         },
         {
           "location": "Switzerland North",
           "zones": [
-            "3",
             "1",
+            "3",
             "2"
           ]
         },
         {
           "location": "UAE North",
           "zones": [
-            "3",
             "1",
+            "3",
             "2"
           ]
         },
         {
           "location": "UK South",
           "zones": [
-            "3",
             "1",
+            "3",
             "2"
           ]
         },
         {
           "location": "West Europe",
           "zones": [
-            "3",
             "1",
+            "3",
             "2"
           ]
         },
@@ -3395,32 +3417,40 @@
         {
           "location": "West US 2",
           "zones": [
-            "3",
             "1",
+            "3",
             "2"
           ]
         },
         {
           "location": "West US 3",
           "zones": [
-            "3",
             "1",
+            "3",
             "2"
           ]
         },
         {
           "location": "Israel Central",
           "zones": [
-            "3",
             "1",
+            "3",
             "2"
           ]
         },
         {
           "location": "Italy North",
           "zones": [
-            "3",
             "1",
+            "3",
+            "2"
+          ]
+        },
+        {
+          "location": "Poland Central",
+          "zones": [
+            "1",
+            "3",
             "2"
           ]
         }
@@ -3476,6 +3506,7 @@
     },
     {
       "apiVersions": [
+        "2023-09-01",
         "2023-07-01",
         "2023-03-01",
         "2022-11-01",
@@ -3535,6 +3566,7 @@
     },
     {
       "apiVersions": [
+        "2023-09-01",
         "2023-07-01",
         "2023-03-01",
         "2022-11-01",
@@ -3594,6 +3626,7 @@
     },
     {
       "apiVersions": [
+        "2023-09-01",
         "2023-07-01",
         "2023-03-01",
         "2022-11-01",
@@ -3671,6 +3704,7 @@
         }
       ],
       "apiVersions": [
+        "2023-09-01",
         "2023-07-03",
         "2023-07-01",
         "2023-03-01",
@@ -3769,6 +3803,7 @@
         }
       ],
       "apiVersions": [
+        "2023-09-01",
         "2023-07-03",
         "2023-07-01",
         "2023-03-01",
@@ -4454,96 +4489,96 @@
         {
           "location": "Australia East",
           "zones": [
-            "3",
             "1",
+            "3",
             "2"
           ]
         },
         {
           "location": "Brazil South",
           "zones": [
-            "3",
             "1",
+            "3",
             "2"
           ]
         },
         {
           "location": "Canada Central",
           "zones": [
-            "3",
             "1",
+            "3",
             "2"
           ]
         },
         {
           "location": "Central India",
           "zones": [
-            "3",
             "1",
+            "3",
             "2"
           ]
         },
         {
           "location": "Central US",
           "zones": [
-            "3",
             "1",
+            "3",
             "2"
           ]
         },
         {
           "location": "East Asia",
           "zones": [
-            "3",
             "1",
+            "3",
             "2"
           ]
         },
         {
           "location": "East US",
           "zones": [
-            "3",
             "1",
+            "3",
             "2"
           ]
         },
         {
           "location": "East US 2",
           "zones": [
-            "3",
             "1",
+            "3",
             "2"
           ]
         },
         {
           "location": "France Central",
           "zones": [
-            "3",
             "1",
+            "3",
             "2"
           ]
         },
         {
           "location": "Germany West Central",
           "zones": [
-            "3",
             "1",
+            "3",
             "2"
           ]
         },
         {
           "location": "Japan East",
           "zones": [
-            "3",
             "1",
+            "3",
             "2"
           ]
         },
         {
           "location": "Korea Central",
           "zones": [
-            "3",
             "1",
+            "3",
             "2"
           ]
         },
@@ -4554,96 +4589,88 @@
         {
           "location": "North Europe",
           "zones": [
-            "3",
             "1",
+            "3",
             "2"
           ]
         },
         {
           "location": "Norway East",
           "zones": [
-            "3",
             "1",
-            "2"
-          ]
-        },
-        {
-          "location": "Poland Central",
-          "zones": [
             "3",
-            "1",
             "2"
           ]
         },
         {
           "location": "Qatar Central",
           "zones": [
-            "3",
             "1",
+            "3",
             "2"
           ]
         },
         {
           "location": "South Africa North",
           "zones": [
-            "3",
             "1",
+            "3",
             "2"
           ]
         },
         {
           "location": "South Central US",
           "zones": [
-            "3",
             "1",
+            "3",
             "2"
           ]
         },
         {
           "location": "Southeast Asia",
           "zones": [
-            "3",
             "1",
+            "3",
             "2"
           ]
         },
         {
           "location": "Sweden Central",
           "zones": [
-            "3",
             "1",
+            "3",
             "2"
           ]
         },
         {
           "location": "Switzerland North",
           "zones": [
-            "3",
             "1",
+            "3",
             "2"
           ]
         },
         {
           "location": "UAE North",
           "zones": [
-            "3",
             "1",
+            "3",
             "2"
           ]
         },
         {
           "location": "UK South",
           "zones": [
-            "3",
             "1",
+            "3",
             "2"
           ]
         },
         {
           "location": "West Europe",
           "zones": [
-            "3",
             "1",
+            "3",
             "2"
           ]
         },
@@ -4654,32 +4681,40 @@
         {
           "location": "West US 2",
           "zones": [
-            "3",
             "1",
+            "3",
             "2"
           ]
         },
         {
           "location": "West US 3",
           "zones": [
-            "3",
             "1",
+            "3",
             "2"
           ]
         },
         {
           "location": "Israel Central",
           "zones": [
-            "3",
             "1",
+            "3",
             "2"
           ]
         },
         {
           "location": "Italy North",
           "zones": [
-            "3",
             "1",
+            "3",
+            "2"
+          ]
+        },
+        {
+          "location": "Poland Central",
+          "zones": [
+            "1",
+            "3",
             "2"
           ]
         }
@@ -5147,96 +5182,96 @@
         {
           "location": "Australia East",
           "zones": [
-            "3",
             "1",
+            "3",
             "2"
           ]
         },
         {
           "location": "Brazil South",
           "zones": [
-            "3",
             "1",
+            "3",
             "2"
           ]
         },
         {
           "location": "Canada Central",
           "zones": [
-            "3",
             "1",
+            "3",
             "2"
           ]
         },
         {
           "location": "Central India",
           "zones": [
-            "3",
             "1",
+            "3",
             "2"
           ]
         },
         {
           "location": "Central US",
           "zones": [
-            "3",
             "1",
+            "3",
             "2"
           ]
         },
         {
           "location": "East Asia",
           "zones": [
-            "3",
             "1",
+            "3",
             "2"
           ]
         },
         {
           "location": "East US",
           "zones": [
-            "3",
             "1",
+            "3",
             "2"
           ]
         },
         {
           "location": "East US 2",
           "zones": [
-            "3",
             "1",
+            "3",
             "2"
           ]
         },
         {
           "location": "France Central",
           "zones": [
-            "3",
             "1",
+            "3",
             "2"
           ]
         },
         {
           "location": "Germany West Central",
           "zones": [
-            "3",
             "1",
+            "3",
             "2"
           ]
         },
         {
           "location": "Japan East",
           "zones": [
-            "3",
             "1",
+            "3",
             "2"
           ]
         },
         {
           "location": "Korea Central",
           "zones": [
-            "3",
             "1",
+            "3",
             "2"
           ]
         },
@@ -5247,96 +5282,88 @@
         {
           "location": "North Europe",
           "zones": [
-            "3",
             "1",
+            "3",
             "2"
           ]
         },
         {
           "location": "Norway East",
           "zones": [
-            "3",
             "1",
-            "2"
-          ]
-        },
-        {
-          "location": "Poland Central",
-          "zones": [
             "3",
-            "1",
             "2"
           ]
         },
         {
           "location": "Qatar Central",
           "zones": [
-            "3",
             "1",
+            "3",
             "2"
           ]
         },
         {
           "location": "South Africa North",
           "zones": [
-            "3",
             "1",
+            "3",
             "2"
           ]
         },
         {
           "location": "South Central US",
           "zones": [
-            "3",
             "1",
+            "3",
             "2"
           ]
         },
         {
           "location": "Southeast Asia",
           "zones": [
-            "3",
             "1",
+            "3",
             "2"
           ]
         },
         {
           "location": "Sweden Central",
           "zones": [
-            "3",
             "1",
+            "3",
             "2"
           ]
         },
         {
           "location": "Switzerland North",
           "zones": [
-            "3",
             "1",
+            "3",
             "2"
           ]
         },
         {
           "location": "UAE North",
           "zones": [
-            "3",
             "1",
+            "3",
             "2"
           ]
         },
         {
           "location": "UK South",
           "zones": [
-            "3",
             "1",
+            "3",
             "2"
           ]
         },
         {
           "location": "West Europe",
           "zones": [
-            "3",
             "1",
+            "3",
             "2"
           ]
         },
@@ -5347,32 +5374,40 @@
         {
           "location": "West US 2",
           "zones": [
-            "3",
             "1",
+            "3",
             "2"
           ]
         },
         {
           "location": "West US 3",
           "zones": [
-            "3",
             "1",
+            "3",
             "2"
           ]
         },
         {
           "location": "Israel Central",
           "zones": [
-            "3",
             "1",
+            "3",
             "2"
           ]
         },
         {
           "location": "Italy North",
           "zones": [
-            "3",
             "1",
+            "3",
+            "2"
+          ]
+        },
+        {
+          "location": "Poland Central",
+          "zones": [
+            "1",
+            "3",
             "2"
           ]
         }
@@ -5806,6 +5841,7 @@
         }
       ],
       "apiVersions": [
+        "2023-09-01",
         "2023-07-01",
         "2023-03-01",
         "2022-11-01",
@@ -5888,6 +5924,7 @@
         }
       ],
       "apiVersions": [
+        "2023-09-01",
         "2023-07-01",
         "2023-03-01",
         "2022-11-01",
@@ -6047,6 +6084,7 @@
     },
     {
       "apiVersions": [
+        "2023-09-01",
         "2023-07-01",
         "2023-03-01",
         "2022-11-01",
@@ -6112,6 +6150,7 @@
     },
     {
       "apiVersions": [
+        "2023-09-01",
         "2023-07-01",
         "2023-03-01",
         "2022-11-01",
@@ -6176,96 +6215,96 @@
         {
           "location": "Australia East",
           "zones": [
-            "3",
             "1",
+            "3",
             "2"
           ]
         },
         {
           "location": "Brazil South",
           "zones": [
-            "3",
             "1",
+            "3",
             "2"
           ]
         },
         {
           "location": "Canada Central",
           "zones": [
-            "3",
             "1",
+            "3",
             "2"
           ]
         },
         {
           "location": "Central India",
           "zones": [
-            "3",
             "1",
+            "3",
             "2"
           ]
         },
         {
           "location": "Central US",
           "zones": [
-            "3",
             "1",
+            "3",
             "2"
           ]
         },
         {
           "location": "East Asia",
           "zones": [
-            "3",
             "1",
+            "3",
             "2"
           ]
         },
         {
           "location": "East US",
           "zones": [
-            "3",
             "1",
+            "3",
             "2"
           ]
         },
         {
           "location": "East US 2",
           "zones": [
-            "3",
             "1",
+            "3",
             "2"
           ]
         },
         {
           "location": "France Central",
           "zones": [
-            "3",
             "1",
+            "3",
             "2"
           ]
         },
         {
           "location": "Germany West Central",
           "zones": [
-            "3",
             "1",
+            "3",
             "2"
           ]
         },
         {
           "location": "Japan East",
           "zones": [
-            "3",
             "1",
+            "3",
             "2"
           ]
         },
         {
           "location": "Korea Central",
           "zones": [
-            "3",
             "1",
+            "3",
             "2"
           ]
         },
@@ -6276,96 +6315,88 @@
         {
           "location": "North Europe",
           "zones": [
-            "3",
             "1",
+            "3",
             "2"
           ]
         },
         {
           "location": "Norway East",
           "zones": [
-            "3",
             "1",
-            "2"
-          ]
-        },
-        {
-          "location": "Poland Central",
-          "zones": [
             "3",
-            "1",
             "2"
           ]
         },
         {
           "location": "Qatar Central",
           "zones": [
-            "3",
             "1",
+            "3",
             "2"
           ]
         },
         {
           "location": "South Africa North",
           "zones": [
-            "3",
             "1",
+            "3",
             "2"
           ]
         },
         {
           "location": "South Central US",
           "zones": [
-            "3",
             "1",
+            "3",
             "2"
           ]
         },
         {
           "location": "Southeast Asia",
           "zones": [
-            "3",
             "1",
+            "3",
             "2"
           ]
         },
         {
           "location": "Sweden Central",
           "zones": [
-            "3",
             "1",
+            "3",
             "2"
           ]
         },
         {
           "location": "Switzerland North",
           "zones": [
-            "3",
             "1",
+            "3",
             "2"
           ]
         },
         {
           "location": "UAE North",
           "zones": [
-            "3",
             "1",
+            "3",
             "2"
           ]
         },
         {
           "location": "UK South",
           "zones": [
-            "3",
             "1",
+            "3",
             "2"
           ]
         },
         {
           "location": "West Europe",
           "zones": [
-            "3",
             "1",
+            "3",
             "2"
           ]
         },
@@ -6376,32 +6407,40 @@
         {
           "location": "West US 2",
           "zones": [
-            "3",
             "1",
+            "3",
             "2"
           ]
         },
         {
           "location": "West US 3",
           "zones": [
-            "3",
             "1",
+            "3",
             "2"
           ]
         },
         {
           "location": "Israel Central",
           "zones": [
-            "3",
             "1",
+            "3",
             "2"
           ]
         },
         {
           "location": "Italy North",
           "zones": [
-            "3",
             "1",
+            "3",
+            "2"
+          ]
+        },
+        {
+          "location": "Poland Central",
+          "zones": [
+            "1",
+            "3",
             "2"
           ]
         }
@@ -6409,6 +6448,7 @@
     },
     {
       "apiVersions": [
+        "2023-09-01",
         "2023-07-01",
         "2023-03-01",
         "2022-11-01",
@@ -6473,96 +6513,96 @@
         {
           "location": "Australia East",
           "zones": [
-            "3",
             "1",
+            "3",
             "2"
           ]
         },
         {
           "location": "Brazil South",
           "zones": [
-            "3",
             "1",
+            "3",
             "2"
           ]
         },
         {
           "location": "Canada Central",
           "zones": [
-            "3",
             "1",
+            "3",
             "2"
           ]
         },
         {
           "location": "Central India",
           "zones": [
-            "3",
             "1",
+            "3",
             "2"
           ]
         },
         {
           "location": "Central US",
           "zones": [
-            "3",
             "1",
+            "3",
             "2"
           ]
         },
         {
           "location": "East Asia",
           "zones": [
-            "3",
             "1",
+            "3",
             "2"
           ]
         },
         {
           "location": "East US",
           "zones": [
-            "3",
             "1",
+            "3",
             "2"
           ]
         },
         {
           "location": "East US 2",
           "zones": [
-            "3",
             "1",
+            "3",
             "2"
           ]
         },
         {
           "location": "France Central",
           "zones": [
-            "3",
             "1",
+            "3",
             "2"
           ]
         },
         {
           "location": "Germany West Central",
           "zones": [
-            "3",
             "1",
+            "3",
             "2"
           ]
         },
         {
           "location": "Japan East",
           "zones": [
-            "3",
             "1",
+            "3",
             "2"
           ]
         },
         {
           "location": "Korea Central",
           "zones": [
-            "3",
             "1",
+            "3",
             "2"
           ]
         },
@@ -6573,96 +6613,88 @@
         {
           "location": "North Europe",
           "zones": [
-            "3",
             "1",
+            "3",
             "2"
           ]
         },
         {
           "location": "Norway East",
           "zones": [
-            "3",
             "1",
-            "2"
-          ]
-        },
-        {
-          "location": "Poland Central",
-          "zones": [
             "3",
-            "1",
             "2"
           ]
         },
         {
           "location": "Qatar Central",
           "zones": [
-            "3",
             "1",
+            "3",
             "2"
           ]
         },
         {
           "location": "South Africa North",
           "zones": [
-            "3",
             "1",
+            "3",
             "2"
           ]
         },
         {
           "location": "South Central US",
           "zones": [
-            "3",
             "1",
+            "3",
             "2"
           ]
         },
         {
           "location": "Southeast Asia",
           "zones": [
-            "3",
             "1",
+            "3",
             "2"
           ]
         },
         {
           "location": "Sweden Central",
           "zones": [
-            "3",
             "1",
+            "3",
             "2"
           ]
         },
         {
           "location": "Switzerland North",
           "zones": [
-            "3",
             "1",
+            "3",
             "2"
           ]
         },
         {
           "location": "UAE North",
           "zones": [
-            "3",
             "1",
+            "3",
             "2"
           ]
         },
         {
           "location": "UK South",
           "zones": [
-            "3",
             "1",
+            "3",
             "2"
           ]
         },
         {
           "location": "West Europe",
           "zones": [
-            "3",
             "1",
+            "3",
             "2"
           ]
         },
@@ -6673,32 +6705,40 @@
         {
           "location": "West US 2",
           "zones": [
-            "3",
             "1",
+            "3",
             "2"
           ]
         },
         {
           "location": "West US 3",
           "zones": [
-            "3",
             "1",
+            "3",
             "2"
           ]
         },
         {
           "location": "Israel Central",
           "zones": [
-            "3",
             "1",
+            "3",
             "2"
           ]
         },
         {
           "location": "Italy North",
           "zones": [
-            "3",
             "1",
+            "3",
+            "2"
+          ]
+        },
+        {
+          "location": "Poland Central",
+          "zones": [
+            "1",
+            "3",
             "2"
           ]
         }
