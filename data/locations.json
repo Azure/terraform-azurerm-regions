@@ -853,6 +853,17 @@
       "type": "Region"
     },
     {
+      "displayName": "Sweden",
+      "id": "/locations/sweden",
+      "metadata": {
+        "regionCategory": "Other",
+        "regionType": "Logical"
+      },
+      "name": "sweden",
+      "regionalDisplayName": "Sweden",
+      "type": "Region"
+    },
+    {
       "displayName": "Switzerland",
       "id": "/locations/switzerland",
       "metadata": {
