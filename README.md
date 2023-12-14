@@ -27,6 +27,13 @@ output "regions" {
 }
 ```
 
+## Credits
+
+Belatedly adding this, waaaay overdue...
+
+This module was created after a cool chat with [@markti](https://github.com/markti) whilst we were at Hashiconf 2023.
+Thanks Mark!
+
 <!-- markdownlint-disable MD033 -->
 ## Requirements
 
