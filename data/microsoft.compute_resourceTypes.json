@@ -4293,6 +4293,14 @@
     },
     {
       "apiVersions": [
+        "2023-07-03"
+      ],
+      "capabilities": "None",
+      "locations": [],
+      "resourceType": "payloadGroups"
+    },
+    {
+      "apiVersions": [
         "2023-07-03",
         "2022-08-03",
         "2022-03-03",
