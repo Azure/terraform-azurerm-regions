@@ -798,6 +798,28 @@
       "type": "Region"
     },
     {
+      "displayName": "Israel",
+      "id": "/locations/israel",
+      "metadata": {
+        "regionCategory": "Other",
+        "regionType": "Logical"
+      },
+      "name": "israel",
+      "regionalDisplayName": "Israel",
+      "type": "Region"
+    },
+    {
+      "displayName": "Italy",
+      "id": "/locations/italy",
+      "metadata": {
+        "regionCategory": "Other",
+        "regionType": "Logical"
+      },
+      "name": "italy",
+      "regionalDisplayName": "Italy",
+      "type": "Region"
+    },
+    {
       "displayName": "Japan",
       "id": "/locations/japan",
       "metadata": {
@@ -820,6 +842,17 @@
       "type": "Region"
     },
     {
+      "displayName": "New Zealand",
+      "id": "/locations/newzealand",
+      "metadata": {
+        "regionCategory": "Other",
+        "regionType": "Logical"
+      },
+      "name": "newzealand",
+      "regionalDisplayName": "New Zealand",
+      "type": "Region"
+    },
+    {
       "displayName": "Norway",
       "id": "/locations/norway",
       "metadata": {
@@ -828,6 +861,28 @@
       },
       "name": "norway",
       "regionalDisplayName": "Norway",
+      "type": "Region"
+    },
+    {
+      "displayName": "Poland",
+      "id": "/locations/poland",
+      "metadata": {
+        "regionCategory": "Other",
+        "regionType": "Logical"
+      },
+      "name": "poland",
+      "regionalDisplayName": "Poland",
+      "type": "Region"
+    },
+    {
+      "displayName": "Qatar",
+      "id": "/locations/qatar",
+      "metadata": {
+        "regionCategory": "Other",
+        "regionType": "Logical"
+      },
+      "name": "qatar",
+      "regionalDisplayName": "Qatar",
       "type": "Region"
     },
     {
@@ -1011,6 +1066,28 @@
       "type": "Region"
     },
     {
+      "displayName": "Japan West",
+      "id": "/locations/japanwest",
+      "metadata": {
+        "geography": "Japan",
+        "geographyGroup": "Asia Pacific",
+        "latitude": "34.6939",
+        "longitude": "135.5022",
+        "pairedRegion": [
+          {
+            "id": "/locations/japaneast",
+            "name": "japaneast"
+          }
+        ],
+        "physicalLocation": "Osaka",
+        "regionCategory": "Other",
+        "regionType": "Physical"
+      },
+      "name": "japanwest",
+      "regionalDisplayName": "(Asia Pacific) Japan West",
+      "type": "Region"
+    },
+    {
       "displayName": "Jio India West",
       "id": "/locations/jioindiawest",
       "metadata": {
@@ -1140,28 +1217,6 @@
       },
       "name": "australiasoutheast",
       "regionalDisplayName": "(Asia Pacific) Australia Southeast",
-      "type": "Region"
-    },
-    {
-      "displayName": "Japan West",
-      "id": "/locations/japanwest",
-      "metadata": {
-        "geography": "Japan",
-        "geographyGroup": "Asia Pacific",
-        "latitude": "34.6939",
-        "longitude": "135.5022",
-        "pairedRegion": [
-          {
-            "id": "/locations/japaneast",
-            "name": "japaneast"
-          }
-        ],
-        "physicalLocation": "Osaka",
-        "regionCategory": "Other",
-        "regionType": "Physical"
-      },
-      "name": "japanwest",
-      "regionalDisplayName": "(Asia Pacific) Japan West",
       "type": "Region"
     },
     {
