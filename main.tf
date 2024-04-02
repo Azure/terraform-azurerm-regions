@@ -18,12 +18,3 @@ data "azapi_resource_action" "locations" {
   action                 = "locations"
   response_export_values = ["value"]
 }
-
-# These resources allow the use of consistent local data files, and semver versioning
-data "local_file" "compute_provider" {
-  filename = "${path.module}/data/microsoft.compute_resourceTypes.json"
-}
-
-data "local_file" "locations" {
-  filename = "${path.module}/data/locations.json"
-}

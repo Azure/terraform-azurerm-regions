@@ -47,33 +47,33 @@ jobs:
 
       - name: update locations data
         run: |
-          cp locations.json locations.original.json
-          az rest --method GET --uri /locations?api-version=2023-07-01 | jq '{ "value": .value}' > locations.json
-        working-directory: ${{ github.workspace }}/data
+          cp locations.tf.json locations.tf.json.original
+          az rest --method GET --uri /locations?api-version=2023-07-01 | jq '{ "locals": { "locations_cached": {"value": .value }}}' > locations.tf.json
+        working-directory: ${{ github.workspace }}
 
       - name: update compute provider data
         run: |
-          cp microsoft.compute_resourceTypes.json microsoft.compute_resourceTypes.original.json
-          az rest --method GET --uri /subscriptions/${{ vars.AZURE_SUBSCRIPTION_ID }}/providers/Microsoft.Compute?api-version=2022-12-01 | jq '{ "resourceTypes": .resourceTypes}' > microsoft.compute_resourceTypes.json
-        working-directory: ${{ github.workspace }}/data
+          cp microsoft.compute_resourceTypes.tf.json microsoft.compute_resourceTypes.tf.json.original
+          az rest --method GET --uri /subscriptions/${{ vars.AZURE_SUBSCRIPTION_ID }}/providers/Microsoft.Compute?api-version=2022-12-01 | jq '{ "locals": { "regions_zonemappings_cached": {"resourceTypes": .resourceTypes }}}' > microsoft.compute_resourceTypes.tf.json
+        working-directory: ${{ github.workspace }}
 
       - name: deep compare locations data
         run: |
-          if ! jd -set locations.original.json locations.json; then
-            echo "locations.json has changed"
-            git add locations.json
+          if ! jd -set locations.tf.json.original locations.tf.json; then
+            echo "locations.tf.json has changed"
+            git add locations.tf.json
             echo UPDATED=1 >> "$GITHUB_ENV"
           fi
-        working-directory: ${{ github.workspace }}/data
+        working-directory: ${{ github.workspace }}
 
       - name: deep compare compute provider data
         run: |
-          if ! jd -set microsoft.compute_resourceTypes.original.json microsoft.compute_resourceTypes.json; then
-            echo "microsoft.compute_resourceTypes.json has changed"
-            git add microsoft.compute_resourceTypes.json
+          if ! jd -set microsoft.compute_resourceTypes.tf.json.original microsoft.compute_resourceTypes.tf.json; then
+            echo "microsoft.compute_resourceTypes.tf.json has changed"
+            git add microsoft.compute_resourceTypes.tf.json
             echo UPDATED=1 >> "$GITHUB_ENV"
           fi
-        working-directory: ${{ github.workspace }}/data
+        working-directory: ${{ github.workspace }}
 
       - name: commit changes & create PR
         run: |
