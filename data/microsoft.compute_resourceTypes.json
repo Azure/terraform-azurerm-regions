@@ -4102,7 +4102,7 @@
         "2018-06-01"
       ],
       "capabilities": "SupportsTags, SupportsLocation",
-      "defaultApiVersion": "2018-06-01",
+      "defaultApiVersion": "2022-03-03",
       "locations": [
         "West Central US",
         "South Central US",
@@ -4162,7 +4162,7 @@
         "2018-06-01"
       ],
       "capabilities": "SupportsTags, SupportsLocation",
-      "defaultApiVersion": "2018-06-01",
+      "defaultApiVersion": "2022-03-03",
       "locations": [
         "West Central US",
         "South Central US",
@@ -4222,7 +4222,7 @@
         "2018-06-01"
       ],
       "capabilities": "SupportsTags, SupportsLocation",
-      "defaultApiVersion": "2018-06-01",
+      "defaultApiVersion": "2022-03-03",
       "locations": [
         "West Central US",
         "South Central US",
@@ -4282,7 +4282,7 @@
         "2018-06-01"
       ],
       "capabilities": "None",
-      "defaultApiVersion": "2018-06-01",
+      "defaultApiVersion": "2022-03-03",
       "locations": [
         "West Central US",
         "South Central US",
@@ -4349,7 +4349,7 @@
         "2019-03-01"
       ],
       "capabilities": "SupportsTags, SupportsLocation",
-      "defaultApiVersion": "2019-03-01",
+      "defaultApiVersion": "2022-03-03",
       "locations": [
         "West Central US",
         "South Central US",
@@ -4408,7 +4408,7 @@
         "2019-03-01"
       ],
       "capabilities": "SupportsTags, SupportsLocation",
-      "defaultApiVersion": "2019-03-01",
+      "defaultApiVersion": "2022-03-03",
       "locations": [
         "West Central US",
         "South Central US",
@@ -5943,7 +5943,6 @@
         "Canada Central",
         "Canada East",
         "West US 2",
-        "West Central US",
         "UK South",
         "UK West",
         "Korea Central",
@@ -5959,7 +5958,8 @@
         "Qatar Central",
         "Poland Central",
         "Italy North",
-        "Israel Central"
+        "Israel Central",
+        "West Central US"
       ],
       "resourceType": "locations/usages"
     },
@@ -6046,10 +6046,11 @@
     },
     {
       "apiVersions": [
+        "2024-03-01-preview",
         "2021-06-01-preview"
       ],
       "capabilities": "None",
-      "defaultApiVersion": "2021-06-01-preview",
+      "defaultApiVersion": "2024-03-01-preview",
       "locations": [
         "West Central US",
         "Southeast Asia",
@@ -6091,10 +6092,11 @@
     },
     {
       "apiVersions": [
+        "2024-03-01-preview",
         "2021-06-01-preview"
       ],
       "capabilities": "None",
-      "defaultApiVersion": "2021-06-01-preview",
+      "defaultApiVersion": "2024-03-01-preview",
       "locations": [
         "West Central US",
         "Southeast Asia",
