@@ -94,7 +94,8 @@
             "Qatar Central",
             "Poland Central",
             "Italy North",
-            "Israel Central"
+            "Israel Central",
+            "Mexico Central"
           ],
           "resourceType": "availabilitySets"
         },
@@ -190,7 +191,8 @@
             "Qatar Central",
             "Poland Central",
             "Italy North",
-            "Israel Central"
+            "Israel Central",
+            "Mexico Central"
           ],
           "resourceType": "virtualMachines",
           "zoneMappings": [
@@ -275,6 +277,22 @@
               ]
             },
             {
+              "location": "Israel Central",
+              "zones": [
+                "1",
+                "3",
+                "2"
+              ]
+            },
+            {
+              "location": "Italy North",
+              "zones": [
+                "1",
+                "3",
+                "2"
+              ]
+            },
+            {
               "location": "Japan East",
               "zones": [
                 "1",
@@ -291,7 +309,7 @@
               ]
             },
             {
-              "location": "North Central US",
+              "location": "Mexico Central",
               "zones": []
             },
             {
@@ -304,6 +322,14 @@
             },
             {
               "location": "Norway East",
+              "zones": [
+                "1",
+                "3",
+                "2"
+              ]
+            },
+            {
+              "location": "Poland Central",
               "zones": [
                 "1",
                 "3",
@@ -383,10 +409,6 @@
               ]
             },
             {
-              "location": "West US",
-              "zones": []
-            },
-            {
               "location": "West US 2",
               "zones": [
                 "1",
@@ -396,30 +418,6 @@
             },
             {
               "location": "West US 3",
-              "zones": [
-                "1",
-                "3",
-                "2"
-              ]
-            },
-            {
-              "location": "Israel Central",
-              "zones": [
-                "1",
-                "3",
-                "2"
-              ]
-            },
-            {
-              "location": "Italy North",
-              "zones": [
-                "1",
-                "3",
-                "2"
-              ]
-            },
-            {
-              "location": "Poland Central",
               "zones": [
                 "1",
                 "3",
@@ -520,7 +518,8 @@
             "Qatar Central",
             "Poland Central",
             "Italy North",
-            "Israel Central"
+            "Israel Central",
+            "Mexico Central"
           ],
           "resourceType": "virtualMachines/extensions"
         },
@@ -617,7 +616,8 @@
             "Qatar Central",
             "Poland Central",
             "Italy North",
-            "Israel Central"
+            "Israel Central",
+            "Mexico Central"
           ],
           "resourceType": "virtualMachineScaleSets",
           "zoneMappings": [
@@ -702,6 +702,22 @@
               ]
             },
             {
+              "location": "Israel Central",
+              "zones": [
+                "1",
+                "3",
+                "2"
+              ]
+            },
+            {
+              "location": "Italy North",
+              "zones": [
+                "1",
+                "3",
+                "2"
+              ]
+            },
+            {
               "location": "Japan East",
               "zones": [
                 "1",
@@ -718,7 +734,7 @@
               ]
             },
             {
-              "location": "North Central US",
+              "location": "Mexico Central",
               "zones": []
             },
             {
@@ -731,6 +747,14 @@
             },
             {
               "location": "Norway East",
+              "zones": [
+                "1",
+                "3",
+                "2"
+              ]
+            },
+            {
+              "location": "Poland Central",
               "zones": [
                 "1",
                 "3",
@@ -810,10 +834,6 @@
               ]
             },
             {
-              "location": "West US",
-              "zones": []
-            },
-            {
               "location": "West US 2",
               "zones": [
                 "1",
@@ -823,30 +843,6 @@
             },
             {
               "location": "West US 3",
-              "zones": [
-                "1",
-                "3",
-                "2"
-              ]
-            },
-            {
-              "location": "Israel Central",
-              "zones": [
-                "1",
-                "3",
-                "2"
-              ]
-            },
-            {
-              "location": "Italy North",
-              "zones": [
-                "1",
-                "3",
-                "2"
-              ]
-            },
-            {
-              "location": "Poland Central",
               "zones": [
                 "1",
                 "3",
@@ -948,7 +944,8 @@
             "Qatar Central",
             "Poland Central",
             "Italy North",
-            "Israel Central"
+            "Israel Central",
+            "Mexico Central"
           ],
           "resourceType": "virtualMachineScaleSets/extensions"
         },
@@ -1045,7 +1042,8 @@
             "Qatar Central",
             "Poland Central",
             "Italy North",
-            "Israel Central"
+            "Israel Central",
+            "Mexico Central"
           ],
           "resourceType": "virtualMachineScaleSets/virtualMachines"
         },
@@ -1141,7 +1139,8 @@
             "Qatar Central",
             "Poland Central",
             "Italy North",
-            "Israel Central"
+            "Israel Central",
+            "Mexico Central"
           ],
           "resourceType": "virtualMachineScaleSets/virtualMachines/extensions"
         },
@@ -1239,7 +1238,8 @@
             "Qatar Central",
             "Poland Central",
             "Italy North",
-            "Israel Central"
+            "Israel Central",
+            "Mexico Central"
           ],
           "resourceType": "virtualMachineScaleSets/networkInterfaces"
         },
@@ -1337,7 +1337,8 @@
             "Qatar Central",
             "Poland Central",
             "Italy North",
-            "Israel Central"
+            "Israel Central",
+            "Mexico Central"
           ],
           "resourceType": "virtualMachineScaleSets/virtualMachines/networkInterfaces"
         },
@@ -1423,7 +1424,8 @@
             "Qatar Central",
             "Poland Central",
             "Italy North",
-            "Israel Central"
+            "Israel Central",
+            "Mexico Central"
           ],
           "resourceType": "virtualMachineScaleSets/publicIPAddresses"
         },
@@ -1552,7 +1554,8 @@
             "Qatar Central",
             "Poland Central",
             "Italy North",
-            "Israel Central"
+            "Israel Central",
+            "Mexico Central"
           ],
           "resourceType": "locations/operations"
         },
@@ -1647,7 +1650,8 @@
             "Qatar Central",
             "Poland Central",
             "Italy North",
-            "Israel Central"
+            "Israel Central",
+            "Mexico Central"
           ],
           "resourceType": "locations/vmSizes"
         },
@@ -1733,7 +1737,8 @@
             "Qatar Central",
             "Poland Central",
             "Italy North",
-            "Israel Central"
+            "Israel Central",
+            "Mexico Central"
           ],
           "resourceType": "locations/runCommands"
         },
@@ -1821,7 +1826,8 @@
             "Qatar Central",
             "Poland Central",
             "Italy North",
-            "Israel Central"
+            "Israel Central",
+            "Mexico Central"
           ],
           "resourceType": "locations/virtualMachines"
         },
@@ -1909,7 +1915,8 @@
             "Qatar Central",
             "Poland Central",
             "Italy North",
-            "Israel Central"
+            "Israel Central",
+            "Mexico Central"
           ],
           "resourceType": "locations/virtualMachineScaleSets"
         },
@@ -2009,7 +2016,8 @@
             "Qatar Central",
             "Poland Central",
             "Italy North",
-            "Israel Central"
+            "Israel Central",
+            "Mexico Central"
           ],
           "resourceType": "locations/publishers"
         },
@@ -2081,7 +2089,8 @@
             "Qatar Central",
             "Poland Central",
             "Italy North",
-            "Israel Central"
+            "Israel Central",
+            "Mexico Central"
           ],
           "resourceType": "operations"
         },
@@ -2143,7 +2152,8 @@
             "Qatar Central",
             "Poland Central",
             "Italy North",
-            "Israel Central"
+            "Israel Central",
+            "Mexico Central"
           ],
           "resourceType": "virtualMachines/runCommands"
         },
@@ -2200,7 +2210,8 @@
             "Qatar Central",
             "Poland Central",
             "Italy North",
-            "Israel Central"
+            "Israel Central",
+            "Mexico Central"
           ],
           "resourceType": "virtualMachineScaleSets/applications"
         },
@@ -2257,7 +2268,8 @@
             "Qatar Central",
             "Poland Central",
             "Italy North",
-            "Israel Central"
+            "Israel Central",
+            "Mexico Central"
           ],
           "resourceType": "virtualMachines/VMApplications"
         },
@@ -2335,7 +2347,8 @@
             "Qatar Central",
             "Poland Central",
             "Italy North",
-            "Israel Central"
+            "Israel Central",
+            "Mexico Central"
           ],
           "resourceType": "locations/edgeZones/vmimages"
         },
@@ -2394,7 +2407,8 @@
             "Qatar Central",
             "Poland Central",
             "Italy North",
-            "Israel Central"
+            "Israel Central",
+            "Mexico Central"
           ],
           "resourceType": "locations/edgeZones/publishers"
         },
@@ -2463,7 +2477,8 @@
             "Qatar Central",
             "Poland Central",
             "Italy North",
-            "Israel Central"
+            "Israel Central",
+            "Mexico Central"
           ],
           "resourceType": "restorePointCollections"
         },
@@ -2531,7 +2546,8 @@
             "Qatar Central",
             "Poland Central",
             "Italy North",
-            "Israel Central"
+            "Israel Central",
+            "Mexico Central"
           ],
           "resourceType": "restorePointCollections/restorePoints"
         },
@@ -2598,7 +2614,8 @@
             "Qatar Central",
             "Poland Central",
             "Italy North",
-            "Israel Central"
+            "Israel Central",
+            "Mexico Central"
           ],
           "resourceType": "proximityPlacementGroups",
           "zoneMappings": [
@@ -2683,6 +2700,22 @@
               ]
             },
             {
+              "location": "Israel Central",
+              "zones": [
+                "1",
+                "3",
+                "2"
+              ]
+            },
+            {
+              "location": "Italy North",
+              "zones": [
+                "1",
+                "3",
+                "2"
+              ]
+            },
+            {
               "location": "Japan East",
               "zones": [
                 "1",
@@ -2699,7 +2732,7 @@
               ]
             },
             {
-              "location": "North Central US",
+              "location": "Mexico Central",
               "zones": []
             },
             {
@@ -2712,6 +2745,14 @@
             },
             {
               "location": "Norway East",
+              "zones": [
+                "1",
+                "3",
+                "2"
+              ]
+            },
+            {
+              "location": "Poland Central",
               "zones": [
                 "1",
                 "3",
@@ -2791,10 +2832,6 @@
               ]
             },
             {
-              "location": "West US",
-              "zones": []
-            },
-            {
               "location": "West US 2",
               "zones": [
                 "1",
@@ -2804,30 +2841,6 @@
             },
             {
               "location": "West US 3",
-              "zones": [
-                "1",
-                "3",
-                "2"
-              ]
-            },
-            {
-              "location": "Israel Central",
-              "zones": [
-                "1",
-                "3",
-                "2"
-              ]
-            },
-            {
-              "location": "Italy North",
-              "zones": [
-                "1",
-                "3",
-                "2"
-              ]
-            },
-            {
-              "location": "Poland Central",
               "zones": [
                 "1",
                 "3",
@@ -2894,7 +2907,8 @@
             "Qatar Central",
             "Poland Central",
             "Italy North",
-            "Israel Central"
+            "Israel Central",
+            "Mexico Central"
           ],
           "resourceType": "sshPublicKeys"
         },
@@ -2955,7 +2969,8 @@
             "Qatar Central",
             "Poland Central",
             "Italy North",
-            "Israel Central"
+            "Israel Central",
+            "Mexico Central"
           ],
           "resourceType": "capacityReservationGroups",
           "zoneMappings": [
@@ -3040,6 +3055,22 @@
               ]
             },
             {
+              "location": "Israel Central",
+              "zones": [
+                "1",
+                "3",
+                "2"
+              ]
+            },
+            {
+              "location": "Italy North",
+              "zones": [
+                "1",
+                "3",
+                "2"
+              ]
+            },
+            {
               "location": "Japan East",
               "zones": [
                 "1",
@@ -3056,7 +3087,7 @@
               ]
             },
             {
-              "location": "North Central US",
+              "location": "Mexico Central",
               "zones": []
             },
             {
@@ -3069,6 +3100,14 @@
             },
             {
               "location": "Norway East",
+              "zones": [
+                "1",
+                "3",
+                "2"
+              ]
+            },
+            {
+              "location": "Poland Central",
               "zones": [
                 "1",
                 "3",
@@ -3148,10 +3187,6 @@
               ]
             },
             {
-              "location": "West US",
-              "zones": []
-            },
-            {
               "location": "West US 2",
               "zones": [
                 "1",
@@ -3161,30 +3196,6 @@
             },
             {
               "location": "West US 3",
-              "zones": [
-                "1",
-                "3",
-                "2"
-              ]
-            },
-            {
-              "location": "Israel Central",
-              "zones": [
-                "1",
-                "3",
-                "2"
-              ]
-            },
-            {
-              "location": "Italy North",
-              "zones": [
-                "1",
-                "3",
-                "2"
-              ]
-            },
-            {
-              "location": "Poland Central",
               "zones": [
                 "1",
                 "3",
@@ -3250,7 +3261,8 @@
             "Qatar Central",
             "Poland Central",
             "Italy North",
-            "Israel Central"
+            "Israel Central",
+            "Mexico Central"
           ],
           "resourceType": "capacityReservationGroups/capacityReservations",
           "zoneMappings": [
@@ -3335,6 +3347,22 @@
               ]
             },
             {
+              "location": "Israel Central",
+              "zones": [
+                "1",
+                "3",
+                "2"
+              ]
+            },
+            {
+              "location": "Italy North",
+              "zones": [
+                "1",
+                "3",
+                "2"
+              ]
+            },
+            {
               "location": "Japan East",
               "zones": [
                 "1",
@@ -3351,7 +3379,7 @@
               ]
             },
             {
-              "location": "North Central US",
+              "location": "Mexico Central",
               "zones": []
             },
             {
@@ -3364,6 +3392,14 @@
             },
             {
               "location": "Norway East",
+              "zones": [
+                "1",
+                "3",
+                "2"
+              ]
+            },
+            {
+              "location": "Poland Central",
               "zones": [
                 "1",
                 "3",
@@ -3443,10 +3479,6 @@
               ]
             },
             {
-              "location": "West US",
-              "zones": []
-            },
-            {
               "location": "West US 2",
               "zones": [
                 "1",
@@ -3456,30 +3488,6 @@
             },
             {
               "location": "West US 3",
-              "zones": [
-                "1",
-                "3",
-                "2"
-              ]
-            },
-            {
-              "location": "Israel Central",
-              "zones": [
-                "1",
-                "3",
-                "2"
-              ]
-            },
-            {
-              "location": "Italy North",
-              "zones": [
-                "1",
-                "3",
-                "2"
-              ]
-            },
-            {
-              "location": "Poland Central",
               "zones": [
                 "1",
                 "3",
@@ -3532,7 +3540,8 @@
             "Qatar Central",
             "Israel Central",
             "Poland Central",
-            "Italy North"
+            "Italy North",
+            "Mexico Central"
           ],
           "resourceType": "virtualMachines/metricDefinitions"
         },
@@ -3593,7 +3602,8 @@
             "Qatar Central",
             "Poland Central",
             "Italy North",
-            "Israel Central"
+            "Israel Central",
+            "Mexico Central"
           ],
           "resourceType": "locations/spotEvictionRates"
         },
@@ -3654,7 +3664,8 @@
             "Qatar Central",
             "Poland Central",
             "Italy North",
-            "Israel Central"
+            "Israel Central",
+            "Mexico Central"
           ],
           "resourceType": "locations/spotPriceHistory"
         },
@@ -3711,7 +3722,8 @@
             "Qatar Central",
             "Poland Central",
             "Italy North",
-            "Israel Central"
+            "Israel Central",
+            "Mexico Central"
           ],
           "resourceType": "locations/recommendations"
         },
@@ -3811,7 +3823,8 @@
             "Qatar Central",
             "Poland Central",
             "Italy North",
-            "Israel Central"
+            "Israel Central",
+            "Mexico Central"
           ],
           "resourceType": "locations/sharedGalleries"
         },
@@ -3911,7 +3924,8 @@
             "Qatar Central",
             "Poland Central",
             "Italy North",
-            "Israel Central"
+            "Israel Central",
+            "Mexico Central"
           ],
           "resourceType": "locations/communityGalleries"
         },
@@ -4084,7 +4098,8 @@
             "Qatar Central",
             "Poland Central",
             "Italy North",
-            "Israel Central"
+            "Israel Central",
+            "Mexico Central"
           ],
           "resourceType": "locations/capsoperations"
         },
@@ -4144,7 +4159,8 @@
             "Qatar Central",
             "Poland Central",
             "Italy North",
-            "Israel Central"
+            "Israel Central",
+            "Mexico Central"
           ],
           "resourceType": "galleries"
         },
@@ -4204,7 +4220,8 @@
             "Qatar Central",
             "Poland Central",
             "Italy North",
-            "Israel Central"
+            "Israel Central",
+            "Mexico Central"
           ],
           "resourceType": "galleries/images"
         },
@@ -4264,7 +4281,8 @@
             "Qatar Central",
             "Poland Central",
             "Italy North",
-            "Israel Central"
+            "Israel Central",
+            "Mexico Central"
           ],
           "resourceType": "galleries/images/versions"
         },
@@ -4324,7 +4342,8 @@
             "Qatar Central",
             "Poland Central",
             "Italy North",
-            "Israel Central"
+            "Israel Central",
+            "Mexico Central"
           ],
           "resourceType": "locations/galleries"
         },
@@ -4391,7 +4410,8 @@
             "Qatar Central",
             "Poland Central",
             "Italy North",
-            "Israel Central"
+            "Israel Central",
+            "Mexico Central"
           ],
           "resourceType": "galleries/applications"
         },
@@ -4450,7 +4470,8 @@
             "Qatar Central",
             "Poland Central",
             "Italy North",
-            "Israel Central"
+            "Israel Central",
+            "Mexico Central"
           ],
           "resourceType": "galleries/applications/versions"
         },
@@ -4528,7 +4549,8 @@
             "Qatar Central",
             "Poland Central",
             "Italy North",
-            "Israel Central"
+            "Israel Central",
+            "Mexico Central"
           ],
           "resourceType": "disks",
           "zoneMappings": [
@@ -4613,6 +4635,22 @@
               ]
             },
             {
+              "location": "Israel Central",
+              "zones": [
+                "1",
+                "3",
+                "2"
+              ]
+            },
+            {
+              "location": "Italy North",
+              "zones": [
+                "1",
+                "3",
+                "2"
+              ]
+            },
+            {
               "location": "Japan East",
               "zones": [
                 "1",
@@ -4629,7 +4667,7 @@
               ]
             },
             {
-              "location": "North Central US",
+              "location": "Mexico Central",
               "zones": []
             },
             {
@@ -4642,6 +4680,14 @@
             },
             {
               "location": "Norway East",
+              "zones": [
+                "1",
+                "3",
+                "2"
+              ]
+            },
+            {
+              "location": "Poland Central",
               "zones": [
                 "1",
                 "3",
@@ -4721,10 +4767,6 @@
               ]
             },
             {
-              "location": "West US",
-              "zones": []
-            },
-            {
               "location": "West US 2",
               "zones": [
                 "1",
@@ -4734,30 +4776,6 @@
             },
             {
               "location": "West US 3",
-              "zones": [
-                "1",
-                "3",
-                "2"
-              ]
-            },
-            {
-              "location": "Israel Central",
-              "zones": [
-                "1",
-                "3",
-                "2"
-              ]
-            },
-            {
-              "location": "Italy North",
-              "zones": [
-                "1",
-                "3",
-                "2"
-              ]
-            },
-            {
-              "location": "Poland Central",
               "zones": [
                 "1",
                 "3",
@@ -4840,7 +4858,8 @@
             "Qatar Central",
             "Poland Central",
             "Italy North",
-            "Israel Central"
+            "Israel Central",
+            "Mexico Central"
           ],
           "resourceType": "snapshots"
         },
@@ -4917,7 +4936,8 @@
             "Qatar Central",
             "Poland Central",
             "Italy North",
-            "Israel Central"
+            "Israel Central",
+            "Mexico Central"
           ],
           "resourceType": "locations/diskoperations"
         },
@@ -4979,7 +4999,8 @@
             "Qatar Central",
             "Poland Central",
             "Italy North",
-            "Israel Central"
+            "Israel Central",
+            "Mexico Central"
           ],
           "resourceType": "diskEncryptionSets"
         },
@@ -5039,7 +5060,8 @@
             "Qatar Central",
             "Poland Central",
             "Italy North",
-            "Israel Central"
+            "Israel Central",
+            "Mexico Central"
           ],
           "resourceType": "diskAccesses"
         },
@@ -5097,7 +5119,8 @@
             "Qatar Central",
             "Poland Central",
             "Italy North",
-            "Israel Central"
+            "Israel Central",
+            "Mexico Central"
           ],
           "resourceType": "restorePointCollections/restorePoints/diskRestorePoints"
         },
@@ -5175,7 +5198,8 @@
             "Qatar Central",
             "Poland Central",
             "Italy North",
-            "Israel Central"
+            "Israel Central",
+            "Mexico Central"
           ],
           "resourceType": "virtualMachineScaleSets/disks"
         },
@@ -5227,7 +5251,8 @@
             "Qatar Central",
             "Poland Central",
             "Italy North",
-            "Israel Central"
+            "Israel Central",
+            "Mexico Central"
           ],
           "resourceType": "cloudServices",
           "zoneMappings": [
@@ -5312,6 +5337,22 @@
               ]
             },
             {
+              "location": "Israel Central",
+              "zones": [
+                "1",
+                "3",
+                "2"
+              ]
+            },
+            {
+              "location": "Italy North",
+              "zones": [
+                "1",
+                "3",
+                "2"
+              ]
+            },
+            {
               "location": "Japan East",
               "zones": [
                 "1",
@@ -5328,7 +5369,7 @@
               ]
             },
             {
-              "location": "North Central US",
+              "location": "Mexico Central",
               "zones": []
             },
             {
@@ -5341,6 +5382,14 @@
             },
             {
               "location": "Norway East",
+              "zones": [
+                "1",
+                "3",
+                "2"
+              ]
+            },
+            {
+              "location": "Poland Central",
               "zones": [
                 "1",
                 "3",
@@ -5420,10 +5469,6 @@
               ]
             },
             {
-              "location": "West US",
-              "zones": []
-            },
-            {
               "location": "West US 2",
               "zones": [
                 "1",
@@ -5433,30 +5478,6 @@
             },
             {
               "location": "West US 3",
-              "zones": [
-                "1",
-                "3",
-                "2"
-              ]
-            },
-            {
-              "location": "Israel Central",
-              "zones": [
-                "1",
-                "3",
-                "2"
-              ]
-            },
-            {
-              "location": "Italy North",
-              "zones": [
-                "1",
-                "3",
-                "2"
-              ]
-            },
-            {
-              "location": "Poland Central",
               "zones": [
                 "1",
                 "3",
@@ -5513,7 +5534,8 @@
             "Qatar Central",
             "Poland Central",
             "Italy North",
-            "Israel Central"
+            "Israel Central",
+            "Mexico Central"
           ],
           "resourceType": "cloudServices/roles"
         },
@@ -5565,7 +5587,8 @@
             "Qatar Central",
             "Poland Central",
             "Italy North",
-            "Israel Central"
+            "Israel Central",
+            "Mexico Central"
           ],
           "resourceType": "cloudServices/roleInstances"
         },
@@ -5616,7 +5639,8 @@
             "Qatar Central",
             "Poland Central",
             "Italy North",
-            "Israel Central"
+            "Israel Central",
+            "Mexico Central"
           ],
           "resourceType": "locations/csoperations"
         },
@@ -5667,7 +5691,8 @@
             "Qatar Central",
             "Poland Central",
             "Italy North",
-            "Israel Central"
+            "Israel Central",
+            "Mexico Central"
           ],
           "resourceType": "locations/cloudServiceOsVersions"
         },
@@ -5718,7 +5743,8 @@
             "Qatar Central",
             "Poland Central",
             "Italy North",
-            "Israel Central"
+            "Israel Central",
+            "Mexico Central"
           ],
           "resourceType": "locations/cloudServiceOsFamilies"
         },
@@ -5767,7 +5793,8 @@
             "Qatar Central",
             "Poland Central",
             "Italy North",
-            "Israel Central"
+            "Israel Central",
+            "Mexico Central"
           ],
           "resourceType": "cloudServices/networkInterfaces"
         },
@@ -5816,7 +5843,8 @@
             "Qatar Central",
             "Poland Central",
             "Italy North",
-            "Israel Central"
+            "Israel Central",
+            "Mexico Central"
           ],
           "resourceType": "cloudServices/roleInstances/networkInterfaces"
         },
@@ -5865,7 +5893,8 @@
             "Qatar Central",
             "Poland Central",
             "Italy North",
-            "Israel Central"
+            "Israel Central",
+            "Mexico Central"
           ],
           "resourceType": "cloudServices/publicIPAddresses"
         },
@@ -5961,6 +5990,7 @@
             "Poland Central",
             "Italy North",
             "Israel Central",
+            "Mexico Central",
             "West Central US"
           ],
           "resourceType": "locations/usages"
@@ -6042,7 +6072,8 @@
             "Qatar Central",
             "Poland Central",
             "Italy North",
-            "Israel Central"
+            "Israel Central",
+            "Mexico Central"
           ],
           "resourceType": "images"
         },
@@ -6201,7 +6232,8 @@
             "Qatar Central",
             "Poland Central",
             "Italy North",
-            "Israel Central"
+            "Israel Central",
+            "Mexico Central"
           ],
           "resourceType": "locations/logAnalytics"
         },
@@ -6266,7 +6298,8 @@
             "Qatar Central",
             "Poland Central",
             "Italy North",
-            "Israel Central"
+            "Israel Central",
+            "Mexico Central"
           ],
           "resourceType": "hostGroups",
           "zoneMappings": [
@@ -6351,6 +6384,22 @@
               ]
             },
             {
+              "location": "Israel Central",
+              "zones": [
+                "1",
+                "3",
+                "2"
+              ]
+            },
+            {
+              "location": "Italy North",
+              "zones": [
+                "1",
+                "3",
+                "2"
+              ]
+            },
+            {
               "location": "Japan East",
               "zones": [
                 "1",
@@ -6367,7 +6416,7 @@
               ]
             },
             {
-              "location": "North Central US",
+              "location": "Mexico Central",
               "zones": []
             },
             {
@@ -6380,6 +6429,14 @@
             },
             {
               "location": "Norway East",
+              "zones": [
+                "1",
+                "3",
+                "2"
+              ]
+            },
+            {
+              "location": "Poland Central",
               "zones": [
                 "1",
                 "3",
@@ -6459,10 +6516,6 @@
               ]
             },
             {
-              "location": "West US",
-              "zones": []
-            },
-            {
               "location": "West US 2",
               "zones": [
                 "1",
@@ -6472,30 +6525,6 @@
             },
             {
               "location": "West US 3",
-              "zones": [
-                "1",
-                "3",
-                "2"
-              ]
-            },
-            {
-              "location": "Israel Central",
-              "zones": [
-                "1",
-                "3",
-                "2"
-              ]
-            },
-            {
-              "location": "Italy North",
-              "zones": [
-                "1",
-                "3",
-                "2"
-              ]
-            },
-            {
-              "location": "Poland Central",
               "zones": [
                 "1",
                 "3",
@@ -6565,7 +6594,8 @@
             "Qatar Central",
             "Poland Central",
             "Italy North",
-            "Israel Central"
+            "Israel Central",
+            "Mexico Central"
           ],
           "resourceType": "hostGroups/hosts",
           "zoneMappings": [
@@ -6650,6 +6680,22 @@
               ]
             },
             {
+              "location": "Israel Central",
+              "zones": [
+                "1",
+                "3",
+                "2"
+              ]
+            },
+            {
+              "location": "Italy North",
+              "zones": [
+                "1",
+                "3",
+                "2"
+              ]
+            },
+            {
               "location": "Japan East",
               "zones": [
                 "1",
@@ -6666,7 +6712,7 @@
               ]
             },
             {
-              "location": "North Central US",
+              "location": "Mexico Central",
               "zones": []
             },
             {
@@ -6679,6 +6725,14 @@
             },
             {
               "location": "Norway East",
+              "zones": [
+                "1",
+                "3",
+                "2"
+              ]
+            },
+            {
+              "location": "Poland Central",
               "zones": [
                 "1",
                 "3",
@@ -6758,10 +6812,6 @@
               ]
             },
             {
-              "location": "West US",
-              "zones": []
-            },
-            {
               "location": "West US 2",
               "zones": [
                 "1",
@@ -6771,30 +6821,6 @@
             },
             {
               "location": "West US 3",
-              "zones": [
-                "1",
-                "3",
-                "2"
-              ]
-            },
-            {
-              "location": "Israel Central",
-              "zones": [
-                "1",
-                "3",
-                "2"
-              ]
-            },
-            {
-              "location": "Italy North",
-              "zones": [
-                "1",
-                "3",
-                "2"
-              ]
-            },
-            {
-              "location": "Poland Central",
               "zones": [
                 "1",
                 "3",
