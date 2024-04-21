@@ -521,6 +521,23 @@
           "type": "Region"
         },
         {
+          "displayName": "Mexico Central",
+          "id": "/locations/mexicocentral",
+          "metadata": {
+            "geography": "Mexico",
+            "geographyGroup": "Mexico",
+            "latitude": "20.588818",
+            "longitude": "-100.389888",
+            "pairedRegion": [],
+            "physicalLocation": "Querétaro State",
+            "regionCategory": "Recommended",
+            "regionType": "Physical"
+          },
+          "name": "mexicocentral",
+          "regionalDisplayName": "(Mexico) Mexico Central",
+          "type": "Region"
+        },
+        {
           "displayName": "UAE North",
           "id": "/locations/uaenorth",
           "metadata": {

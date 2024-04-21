@@ -310,7 +310,11 @@
             },
             {
               "location": "Mexico Central",
-              "zones": []
+              "zones": [
+                "1",
+                "3",
+                "2"
+              ]
             },
             {
               "location": "North Europe",
@@ -735,7 +739,11 @@
             },
             {
               "location": "Mexico Central",
-              "zones": []
+              "zones": [
+                "1",
+                "3",
+                "2"
+              ]
             },
             {
               "location": "North Europe",
@@ -2733,7 +2741,11 @@
             },
             {
               "location": "Mexico Central",
-              "zones": []
+              "zones": [
+                "1",
+                "3",
+                "2"
+              ]
             },
             {
               "location": "North Europe",
@@ -3088,7 +3100,11 @@
             },
             {
               "location": "Mexico Central",
-              "zones": []
+              "zones": [
+                "1",
+                "3",
+                "2"
+              ]
             },
             {
               "location": "North Europe",
@@ -3380,7 +3396,11 @@
             },
             {
               "location": "Mexico Central",
-              "zones": []
+              "zones": [
+                "1",
+                "3",
+                "2"
+              ]
             },
             {
               "location": "North Europe",
@@ -4668,7 +4688,11 @@
             },
             {
               "location": "Mexico Central",
-              "zones": []
+              "zones": [
+                "1",
+                "3",
+                "2"
+              ]
             },
             {
               "location": "North Europe",
@@ -5370,7 +5394,11 @@
             },
             {
               "location": "Mexico Central",
-              "zones": []
+              "zones": [
+                "1",
+                "3",
+                "2"
+              ]
             },
             {
               "location": "North Europe",
@@ -6417,7 +6445,11 @@
             },
             {
               "location": "Mexico Central",
-              "zones": []
+              "zones": [
+                "1",
+                "3",
+                "2"
+              ]
             },
             {
               "location": "North Europe",
@@ -6713,7 +6745,11 @@
             },
             {
               "location": "Mexico Central",
-              "zones": []
+              "zones": [
+                "1",
+                "3",
+                "2"
+              ]
             },
             {
               "location": "North Europe",
