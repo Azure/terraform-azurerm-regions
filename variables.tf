@@ -1,6 +1,6 @@
 variable "use_cached_data" {
   type        = bool
-  default     = true
+  default     = false
   description = <<DESCRIPTION
 If true, the module will use cached data from the data directory. If false, the module will use live data from the Azure API.
 
@@ -14,7 +14,7 @@ DESCRIPTION
 
 variable "recommended_regions_only" {
   type        = bool
-  default     = true
+  default     = false
   description = <<DESCRIPTION
 If true, the module will only return regions that are have the category set to `Recommended` by the locations API.
 DESCRIPTION
