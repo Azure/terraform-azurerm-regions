@@ -4372,7 +4372,10 @@
             "2023-07-03"
           ],
           "capabilities": "None",
-          "locations": [],
+          "locations": [
+            "South Central US",
+            "West Europe"
+          ],
           "resourceType": "payloadGroups"
         },
         {
@@ -5988,7 +5991,6 @@
             "South Central US",
             "North Europe",
             "West Europe",
-            "East Asia",
             "Southeast Asia",
             "Japan East",
             "Japan West",
@@ -6002,7 +6004,6 @@
             "Canada Central",
             "Canada East",
             "West US 2",
-            "UK South",
             "UK West",
             "Korea Central",
             "Korea South",
@@ -6019,7 +6020,9 @@
             "Italy North",
             "Israel Central",
             "Mexico Central",
-            "West Central US"
+            "West Central US",
+            "UK South",
+            "East Asia"
           ],
           "resourceType": "locations/usages"
         },
@@ -6147,6 +6150,11 @@
             "Norway East",
             "North Central US",
             "Brazil South",
+            "Italy North",
+            "Israel Central",
+            "Qatar Central",
+            "Poland Central",
+            "Mexico Central",
             "Sweden Central"
           ],
           "resourceType": "locations/diagnostics"
@@ -6193,6 +6201,11 @@
             "Norway East",
             "North Central US",
             "Brazil South",
+            "Italy North",
+            "Israel Central",
+            "Qatar Central",
+            "Poland Central",
+            "Mexico Central",
             "Sweden Central"
           ],
           "resourceType": "locations/diagnosticOperations"
