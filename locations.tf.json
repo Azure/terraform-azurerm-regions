@@ -499,6 +499,23 @@
           "type": "Region"
         },
         {
+          "displayName": "Spain Central",
+          "id": "/locations/spaincentral",
+          "metadata": {
+            "geography": "Spain",
+            "geographyGroup": "Europe",
+            "latitude": "40.4259",
+            "longitude": "3.4209",
+            "pairedRegion": [],
+            "physicalLocation": "Madrid",
+            "regionCategory": "Recommended",
+            "regionType": "Physical"
+          },
+          "name": "spaincentral",
+          "regionalDisplayName": "(Europe) Spain Central",
+          "type": "Region"
+        },
+        {
           "displayName": "Switzerland North",
           "id": "/locations/switzerlandnorth",
           "metadata": {

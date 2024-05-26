@@ -95,6 +95,7 @@
             "Poland Central",
             "Italy North",
             "Israel Central",
+            "Spain Central",
             "Mexico Central"
           ],
           "resourceType": "availabilitySets"
@@ -192,6 +193,7 @@
             "Poland Central",
             "Italy North",
             "Israel Central",
+            "Spain Central",
             "Mexico Central"
           ],
           "resourceType": "virtualMachines",
@@ -373,6 +375,14 @@
               ]
             },
             {
+              "location": "Spain Central",
+              "zones": [
+                "1",
+                "3",
+                "2"
+              ]
+            },
+            {
               "location": "Sweden Central",
               "zones": [
                 "1",
@@ -523,6 +533,7 @@
             "Poland Central",
             "Italy North",
             "Israel Central",
+            "Spain Central",
             "Mexico Central"
           ],
           "resourceType": "virtualMachines/extensions"
@@ -621,6 +632,7 @@
             "Poland Central",
             "Italy North",
             "Israel Central",
+            "Spain Central",
             "Mexico Central"
           ],
           "resourceType": "virtualMachineScaleSets",
@@ -802,6 +814,14 @@
               ]
             },
             {
+              "location": "Spain Central",
+              "zones": [
+                "1",
+                "3",
+                "2"
+              ]
+            },
+            {
               "location": "Sweden Central",
               "zones": [
                 "1",
@@ -953,6 +973,7 @@
             "Poland Central",
             "Italy North",
             "Israel Central",
+            "Spain Central",
             "Mexico Central"
           ],
           "resourceType": "virtualMachineScaleSets/extensions"
@@ -1051,6 +1072,7 @@
             "Poland Central",
             "Italy North",
             "Israel Central",
+            "Spain Central",
             "Mexico Central"
           ],
           "resourceType": "virtualMachineScaleSets/virtualMachines"
@@ -1148,6 +1170,7 @@
             "Poland Central",
             "Italy North",
             "Israel Central",
+            "Spain Central",
             "Mexico Central"
           ],
           "resourceType": "virtualMachineScaleSets/virtualMachines/extensions"
@@ -1247,6 +1270,7 @@
             "Poland Central",
             "Italy North",
             "Israel Central",
+            "Spain Central",
             "Mexico Central"
           ],
           "resourceType": "virtualMachineScaleSets/networkInterfaces"
@@ -1346,6 +1370,7 @@
             "Poland Central",
             "Italy North",
             "Israel Central",
+            "Spain Central",
             "Mexico Central"
           ],
           "resourceType": "virtualMachineScaleSets/virtualMachines/networkInterfaces"
@@ -1433,6 +1458,7 @@
             "Poland Central",
             "Italy North",
             "Israel Central",
+            "Spain Central",
             "Mexico Central"
           ],
           "resourceType": "virtualMachineScaleSets/publicIPAddresses"
@@ -1563,6 +1589,7 @@
             "Poland Central",
             "Italy North",
             "Israel Central",
+            "Spain Central",
             "Mexico Central"
           ],
           "resourceType": "locations/operations"
@@ -1659,6 +1686,7 @@
             "Poland Central",
             "Italy North",
             "Israel Central",
+            "Spain Central",
             "Mexico Central"
           ],
           "resourceType": "locations/vmSizes"
@@ -1746,6 +1774,7 @@
             "Poland Central",
             "Italy North",
             "Israel Central",
+            "Spain Central",
             "Mexico Central"
           ],
           "resourceType": "locations/runCommands"
@@ -1835,6 +1864,7 @@
             "Poland Central",
             "Italy North",
             "Israel Central",
+            "Spain Central",
             "Mexico Central"
           ],
           "resourceType": "locations/virtualMachines"
@@ -1924,6 +1954,7 @@
             "Poland Central",
             "Italy North",
             "Israel Central",
+            "Spain Central",
             "Mexico Central"
           ],
           "resourceType": "locations/virtualMachineScaleSets"
@@ -2025,6 +2056,7 @@
             "Poland Central",
             "Italy North",
             "Israel Central",
+            "Spain Central",
             "Mexico Central"
           ],
           "resourceType": "locations/publishers"
@@ -2098,6 +2130,7 @@
             "Poland Central",
             "Italy North",
             "Israel Central",
+            "Spain Central",
             "Mexico Central"
           ],
           "resourceType": "operations"
@@ -2161,6 +2194,7 @@
             "Poland Central",
             "Italy North",
             "Israel Central",
+            "Spain Central",
             "Mexico Central"
           ],
           "resourceType": "virtualMachines/runCommands"
@@ -2219,6 +2253,7 @@
             "Poland Central",
             "Italy North",
             "Israel Central",
+            "Spain Central",
             "Mexico Central"
           ],
           "resourceType": "virtualMachineScaleSets/applications"
@@ -2277,6 +2312,7 @@
             "Poland Central",
             "Italy North",
             "Israel Central",
+            "Spain Central",
             "Mexico Central"
           ],
           "resourceType": "virtualMachines/VMApplications"
@@ -2356,6 +2392,7 @@
             "Poland Central",
             "Italy North",
             "Israel Central",
+            "Spain Central",
             "Mexico Central"
           ],
           "resourceType": "locations/edgeZones/vmimages"
@@ -2416,6 +2453,7 @@
             "Poland Central",
             "Italy North",
             "Israel Central",
+            "Spain Central",
             "Mexico Central"
           ],
           "resourceType": "locations/edgeZones/publishers"
@@ -2486,6 +2524,7 @@
             "Poland Central",
             "Italy North",
             "Israel Central",
+            "Spain Central",
             "Mexico Central"
           ],
           "resourceType": "restorePointCollections"
@@ -2555,6 +2594,7 @@
             "Poland Central",
             "Italy North",
             "Israel Central",
+            "Spain Central",
             "Mexico Central"
           ],
           "resourceType": "restorePointCollections/restorePoints"
@@ -2623,6 +2663,7 @@
             "Poland Central",
             "Italy North",
             "Israel Central",
+            "Spain Central",
             "Mexico Central"
           ],
           "resourceType": "proximityPlacementGroups",
@@ -2804,6 +2845,14 @@
               ]
             },
             {
+              "location": "Spain Central",
+              "zones": [
+                "1",
+                "3",
+                "2"
+              ]
+            },
+            {
               "location": "Sweden Central",
               "zones": [
                 "1",
@@ -2920,6 +2969,7 @@
             "Poland Central",
             "Italy North",
             "Israel Central",
+            "Spain Central",
             "Mexico Central"
           ],
           "resourceType": "sshPublicKeys"
@@ -2982,6 +3032,7 @@
             "Poland Central",
             "Italy North",
             "Israel Central",
+            "Spain Central",
             "Mexico Central"
           ],
           "resourceType": "capacityReservationGroups",
@@ -3163,6 +3214,14 @@
               ]
             },
             {
+              "location": "Spain Central",
+              "zones": [
+                "1",
+                "3",
+                "2"
+              ]
+            },
+            {
               "location": "Sweden Central",
               "zones": [
                 "1",
@@ -3278,6 +3337,7 @@
             "Poland Central",
             "Italy North",
             "Israel Central",
+            "Spain Central",
             "Mexico Central"
           ],
           "resourceType": "capacityReservationGroups/capacityReservations",
@@ -3459,6 +3519,14 @@
               ]
             },
             {
+              "location": "Spain Central",
+              "zones": [
+                "1",
+                "3",
+                "2"
+              ]
+            },
+            {
               "location": "Sweden Central",
               "zones": [
                 "1",
@@ -3561,7 +3629,8 @@
             "Israel Central",
             "Poland Central",
             "Italy North",
-            "Mexico Central"
+            "Mexico Central",
+            "Spain Central"
           ],
           "resourceType": "virtualMachines/metricDefinitions"
         },
@@ -3623,6 +3692,7 @@
             "Poland Central",
             "Italy North",
             "Israel Central",
+            "Spain Central",
             "Mexico Central"
           ],
           "resourceType": "locations/spotEvictionRates"
@@ -3685,6 +3755,7 @@
             "Poland Central",
             "Italy North",
             "Israel Central",
+            "Spain Central",
             "Mexico Central"
           ],
           "resourceType": "locations/spotPriceHistory"
@@ -3743,6 +3814,7 @@
             "Poland Central",
             "Italy North",
             "Israel Central",
+            "Spain Central",
             "Mexico Central"
           ],
           "resourceType": "locations/recommendations"
@@ -3844,6 +3916,7 @@
             "Poland Central",
             "Italy North",
             "Israel Central",
+            "Spain Central",
             "Mexico Central"
           ],
           "resourceType": "locations/sharedGalleries"
@@ -3945,6 +4018,7 @@
             "Poland Central",
             "Italy North",
             "Israel Central",
+            "Spain Central",
             "Mexico Central"
           ],
           "resourceType": "locations/communityGalleries"
@@ -4119,6 +4193,7 @@
             "Poland Central",
             "Italy North",
             "Israel Central",
+            "Spain Central",
             "Mexico Central"
           ],
           "resourceType": "locations/capsoperations"
@@ -4180,6 +4255,7 @@
             "Poland Central",
             "Italy North",
             "Israel Central",
+            "Spain Central",
             "Mexico Central"
           ],
           "resourceType": "galleries"
@@ -4241,6 +4317,7 @@
             "Poland Central",
             "Italy North",
             "Israel Central",
+            "Spain Central",
             "Mexico Central"
           ],
           "resourceType": "galleries/images"
@@ -4302,6 +4379,7 @@
             "Poland Central",
             "Italy North",
             "Israel Central",
+            "Spain Central",
             "Mexico Central"
           ],
           "resourceType": "galleries/images/versions"
@@ -4363,6 +4441,7 @@
             "Poland Central",
             "Italy North",
             "Israel Central",
+            "Spain Central",
             "Mexico Central"
           ],
           "resourceType": "locations/galleries"
@@ -4372,7 +4451,10 @@
             "2023-07-03"
           ],
           "capabilities": "None",
-          "locations": [],
+          "locations": [
+            "South Central US",
+            "West Europe"
+          ],
           "resourceType": "payloadGroups"
         },
         {
@@ -4431,6 +4513,7 @@
             "Poland Central",
             "Italy North",
             "Israel Central",
+            "Spain Central",
             "Mexico Central"
           ],
           "resourceType": "galleries/applications"
@@ -4491,6 +4574,7 @@
             "Poland Central",
             "Italy North",
             "Israel Central",
+            "Spain Central",
             "Mexico Central"
           ],
           "resourceType": "galleries/applications/versions"
@@ -4570,6 +4654,7 @@
             "Poland Central",
             "Italy North",
             "Israel Central",
+            "Spain Central",
             "Mexico Central"
           ],
           "resourceType": "disks",
@@ -4751,6 +4836,14 @@
               ]
             },
             {
+              "location": "Spain Central",
+              "zones": [
+                "1",
+                "3",
+                "2"
+              ]
+            },
+            {
               "location": "Sweden Central",
               "zones": [
                 "1",
@@ -4883,6 +4976,7 @@
             "Poland Central",
             "Italy North",
             "Israel Central",
+            "Spain Central",
             "Mexico Central"
           ],
           "resourceType": "snapshots"
@@ -4961,6 +5055,7 @@
             "Poland Central",
             "Italy North",
             "Israel Central",
+            "Spain Central",
             "Mexico Central"
           ],
           "resourceType": "locations/diskoperations"
@@ -5024,6 +5119,7 @@
             "Poland Central",
             "Italy North",
             "Israel Central",
+            "Spain Central",
             "Mexico Central"
           ],
           "resourceType": "diskEncryptionSets"
@@ -5085,6 +5181,7 @@
             "Poland Central",
             "Italy North",
             "Israel Central",
+            "Spain Central",
             "Mexico Central"
           ],
           "resourceType": "diskAccesses"
@@ -5144,6 +5241,7 @@
             "Poland Central",
             "Italy North",
             "Israel Central",
+            "Spain Central",
             "Mexico Central"
           ],
           "resourceType": "restorePointCollections/restorePoints/diskRestorePoints"
@@ -5223,6 +5321,7 @@
             "Poland Central",
             "Italy North",
             "Israel Central",
+            "Spain Central",
             "Mexico Central"
           ],
           "resourceType": "virtualMachineScaleSets/disks"
@@ -5276,6 +5375,7 @@
             "Poland Central",
             "Italy North",
             "Israel Central",
+            "Spain Central",
             "Mexico Central"
           ],
           "resourceType": "cloudServices",
@@ -5457,6 +5557,14 @@
               ]
             },
             {
+              "location": "Spain Central",
+              "zones": [
+                "1",
+                "3",
+                "2"
+              ]
+            },
+            {
               "location": "Sweden Central",
               "zones": [
                 "1",
@@ -5563,6 +5671,7 @@
             "Poland Central",
             "Italy North",
             "Israel Central",
+            "Spain Central",
             "Mexico Central"
           ],
           "resourceType": "cloudServices/roles"
@@ -5616,6 +5725,7 @@
             "Poland Central",
             "Italy North",
             "Israel Central",
+            "Spain Central",
             "Mexico Central"
           ],
           "resourceType": "cloudServices/roleInstances"
@@ -5668,6 +5778,7 @@
             "Poland Central",
             "Italy North",
             "Israel Central",
+            "Spain Central",
             "Mexico Central"
           ],
           "resourceType": "locations/csoperations"
@@ -5720,6 +5831,7 @@
             "Poland Central",
             "Italy North",
             "Israel Central",
+            "Spain Central",
             "Mexico Central"
           ],
           "resourceType": "locations/cloudServiceOsVersions"
@@ -5772,6 +5884,7 @@
             "Poland Central",
             "Italy North",
             "Israel Central",
+            "Spain Central",
             "Mexico Central"
           ],
           "resourceType": "locations/cloudServiceOsFamilies"
@@ -5822,6 +5935,7 @@
             "Poland Central",
             "Italy North",
             "Israel Central",
+            "Spain Central",
             "Mexico Central"
           ],
           "resourceType": "cloudServices/networkInterfaces"
@@ -5872,6 +5986,7 @@
             "Poland Central",
             "Italy North",
             "Israel Central",
+            "Spain Central",
             "Mexico Central"
           ],
           "resourceType": "cloudServices/roleInstances/networkInterfaces"
@@ -5922,6 +6037,7 @@
             "Poland Central",
             "Italy North",
             "Israel Central",
+            "Spain Central",
             "Mexico Central"
           ],
           "resourceType": "cloudServices/publicIPAddresses"
@@ -5988,7 +6104,6 @@
             "South Central US",
             "North Europe",
             "West Europe",
-            "East Asia",
             "Southeast Asia",
             "Japan East",
             "Japan West",
@@ -6002,7 +6117,6 @@
             "Canada Central",
             "Canada East",
             "West US 2",
-            "UK South",
             "UK West",
             "Korea Central",
             "Korea South",
@@ -6018,8 +6132,11 @@
             "Poland Central",
             "Italy North",
             "Israel Central",
+            "Spain Central",
             "Mexico Central",
-            "West Central US"
+            "West Central US",
+            "UK South",
+            "East Asia"
           ],
           "resourceType": "locations/usages"
         },
@@ -6101,6 +6218,7 @@
             "Poland Central",
             "Italy North",
             "Israel Central",
+            "Spain Central",
             "Mexico Central"
           ],
           "resourceType": "images"
@@ -6147,6 +6265,12 @@
             "Norway East",
             "North Central US",
             "Brazil South",
+            "Italy North",
+            "Israel Central",
+            "Spain Central",
+            "Qatar Central",
+            "Poland Central",
+            "Mexico Central",
             "Sweden Central"
           ],
           "resourceType": "locations/diagnostics"
@@ -6193,6 +6317,12 @@
             "Norway East",
             "North Central US",
             "Brazil South",
+            "Italy North",
+            "Israel Central",
+            "Spain Central",
+            "Qatar Central",
+            "Poland Central",
+            "Mexico Central",
             "Sweden Central"
           ],
           "resourceType": "locations/diagnosticOperations"
@@ -6261,6 +6391,7 @@
             "Poland Central",
             "Italy North",
             "Israel Central",
+            "Spain Central",
             "Mexico Central"
           ],
           "resourceType": "locations/logAnalytics"
@@ -6327,6 +6458,7 @@
             "Poland Central",
             "Italy North",
             "Israel Central",
+            "Spain Central",
             "Mexico Central"
           ],
           "resourceType": "hostGroups",
@@ -6508,6 +6640,14 @@
               ]
             },
             {
+              "location": "Spain Central",
+              "zones": [
+                "1",
+                "3",
+                "2"
+              ]
+            },
+            {
               "location": "Sweden Central",
               "zones": [
                 "1",
@@ -6627,6 +6767,7 @@
             "Poland Central",
             "Italy North",
             "Israel Central",
+            "Spain Central",
             "Mexico Central"
           ],
           "resourceType": "hostGroups/hosts",
@@ -6801,6 +6942,14 @@
             },
             {
               "location": "Southeast Asia",
+              "zones": [
+                "1",
+                "3",
+                "2"
+              ]
+            },
+            {
+              "location": "Spain Central",
               "zones": [
                 "1",
                 "3",
