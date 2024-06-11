@@ -16,7 +16,7 @@ locals {
     for resource_type in local.regions_zonemappings_cached.resourceTypes : [
       for mapping in resource_type.zoneMappings : [{
         location = mapping.location
-        zones    = mapping.zones
+        zones    = sort([for zone in mapping.zones : tonumber(zone)])
       }]
     ] if resource_type.resourceType == "virtualMachines"
   ]))

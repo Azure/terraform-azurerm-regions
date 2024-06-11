@@ -1,17 +1,16 @@
 locals {
+  zonemappings = var.use_cached_data ? local.cached_zonemappings_list : local.live_zonemappings_list
 
-  zonemappings_cached_or_live = var.use_cached_data ? local.cached_zonemappings_list : local.live_zonemappings_list
+  locations = var.use_cached_data ? local.cached_locations_list : local.live_locations_list
 
-  locations_cached_or_live = var.use_cached_data ? local.cached_locations_list : local.live_locations_list
-
-  region_to_zones_map = { for v in local.zonemappings_cached_or_live : v.location => v.zones }
+  region_to_zones_map = { for v in local.zonemappings : v.location => v.zones }
 
   regions_data_merged = [
-    for location in local.locations_cached_or_live :
+    for location in local.locations :
     merge(
       location,
       {
-        zones = sort(lookup(local.region_to_zones_map, location.display_name, []))
+        zones = lookup(local.region_to_zones_map, location.display_name, null)
       }
     )
   ]
