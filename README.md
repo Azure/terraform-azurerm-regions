@@ -18,7 +18,7 @@ This data is the further composed into useful maps keyed by region name and regi
 
 ```hcl
 module "regions" {
-  source = "Azure/regions/azurerm"
+  source  = "Azure/regions/azurerm"
   version = "<version>" # change this to your desired version, https://www.terraform.io/language/expressions/version-constraints
 }
 
@@ -41,21 +41,27 @@ The following requirements are needed by this module:
 
 - <a name="requirement_terraform"></a> [terraform](#requirement\_terraform) (>= 1.0.0)
 
+- <a name="requirement_terraform"></a> [terraform](#requirement\_terraform) (~> 1.6)
+
 - <a name="requirement_azapi"></a> [azapi](#requirement\_azapi) (>= 1.9.0)
+
+- <a name="requirement_azapi"></a> [azapi](#requirement\_azapi) (~> 1.13, != 1.13.0)
 
 - <a name="requirement_azurerm"></a> [azurerm](#requirement\_azurerm) (>= 3.74.0)
 
+- <a name="requirement_azurerm"></a> [azurerm](#requirement\_azurerm) (~> 3.74)
+
 - <a name="requirement_local"></a> [local](#requirement\_local) (>= 2.4.0)
+
+- <a name="requirement_local"></a> [local](#requirement\_local) (~> 2.4)
 
 ## Providers
 
 The following providers are used by this module:
 
-- <a name="provider_azapi"></a> [azapi](#provider\_azapi) (1.9.0)
+- <a name="provider_azapi"></a> [azapi](#provider\_azapi) (>= 1.9.0 ~> 1.13, != 1.13.0)
 
-- <a name="provider_azurerm"></a> [azurerm](#provider\_azurerm) (3.75.0)
-
-- <a name="provider_local"></a> [local](#provider\_local) (>= 2.4.0)
+- <a name="provider_azurerm"></a> [azurerm](#provider\_azurerm) (>= 3.74.0 ~> 3.74)
 
 ## Resources
 
@@ -64,8 +70,6 @@ The following resources are used by this module:
 - [azapi_resource_action.compute_provider](https://registry.terraform.io/providers/azure/azapi/latest/docs/data-sources/resource_action) (data source)
 - [azapi_resource_action.locations](https://registry.terraform.io/providers/azure/azapi/latest/docs/data-sources/resource_action) (data source)
 - [azurerm_client_config.current](https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs/data-sources/client_config) (data source)
-- [local_file.compute_provider](https://registry.terraform.io/providers/hashicorp/local/latest/docs/data-sources/file) (data source)
-- [local_file.locations](https://registry.terraform.io/providers/hashicorp/local/latest/docs/data-sources/file) (data source)
 
 <!-- markdownlint-disable MD013 -->
 ## Required Inputs
@@ -136,6 +140,5 @@ Description: A map of regions by either display names or name, to region objects
 ## Modules
 
 No modules.
-
 
 <!-- END_TF_DOCS -->

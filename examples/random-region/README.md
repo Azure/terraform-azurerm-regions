@@ -8,20 +8,20 @@ terraform {
   required_providers {
     random = {
       source  = "hashicorp/random"
-      version = ">= 3.5.1"
+      version = "~> 3.6"
     }
   }
 }
 
 module "regions" {
-  source = "../../"
+  source          = "../../"
+  use_cached_data = true
 }
 
 resource "random_integer" "region_index" {
-  min = 0
   max = length(module.regions.regions) - 1
+  min = 0
 }
-
 
 output "random_region" {
   value = module.regions.regions[random_integer.region_index.result]
@@ -33,13 +33,13 @@ output "random_region" {
 
 The following requirements are needed by this module:
 
-- <a name="requirement_random"></a> [random](#requirement\_random) (>= 3.5.1)
+- <a name="requirement_random"></a> [random](#requirement\_random) (~> 3.6)
 
 ## Providers
 
 The following providers are used by this module:
 
-- <a name="provider_random"></a> [random](#provider\_random) (>= 3.5.1)
+- <a name="provider_random"></a> [random](#provider\_random) (~> 3.6)
 
 ## Resources
 
@@ -73,6 +73,5 @@ The following Modules are called:
 Source: ../../
 
 Version:
-
 
 <!-- END_TF_DOCS -->

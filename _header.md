@@ -17,7 +17,7 @@ This data is the further composed into useful maps keyed by region name and regi
 
 ```hcl
 module "regions" {
-  source = "Azure/regions/azurerm"
+  source  = "Azure/regions/azurerm"
   version = "<version>" # change this to your desired version, https://www.terraform.io/language/expressions/version-constraints
 }
 

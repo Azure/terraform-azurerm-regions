@@ -2,20 +2,20 @@ terraform {
   required_providers {
     random = {
       source  = "hashicorp/random"
-      version = ">= 3.5.1"
+      version = "~> 3.6"
     }
   }
 }
 
 module "regions" {
-  source = "../../"
+  source          = "../../"
+  use_cached_data = true
 }
 
 resource "random_integer" "region_index" {
-  min = 0
   max = length(module.regions.regions) - 1
+  min = 0
 }
-
 
 output "random_region" {
   value = module.regions.regions[random_integer.region_index.result]

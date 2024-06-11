@@ -8,7 +8,7 @@ terraform {
   required_providers {
     random = {
       source  = "hashicorp/random"
-      version = ">= 3.1.0"
+      version = "~> 3.6"
     }
   }
 }
@@ -20,7 +20,7 @@ module "regions" {
 # This local variable is used to filter out regions in the United States that do not have zones.
 locals {
   us_regions_with_zones = [
-    for v in module.regions.regions_by_geography["United States"] : v if length(v.zones) > 1
+    for v in module.regions.regions_by_geography["United States"] : v if zones != null
   ]
 }
 
@@ -40,13 +40,15 @@ output "two_us_regions_with_zones" {
 
 The following requirements are needed by this module:
 
-- <a name="requirement_random"></a> [random](#requirement\_random) (>= 3.1.0)
+- <a name="requirement_random"></a> [random](#requirement\_random) (~> 3.6)
+
+- <a name="requirement_random"></a> [random](#requirement\_random) (~> 3.6)
 
 ## Providers
 
 The following providers are used by this module:
 
-- <a name="provider_random"></a> [random](#provider\_random) (>= 3.1.0)
+- <a name="provider_random"></a> [random](#provider\_random) (~> 3.6 ~> 3.6)
 
 ## Resources
 
@@ -80,6 +82,5 @@ The following Modules are called:
 Source: ../../
 
 Version:
-
 
 <!-- END_TF_DOCS -->

@@ -2,7 +2,7 @@ terraform {
   required_providers {
     random = {
       source  = "hashicorp/random"
-      version = ">= 3.1.0"
+      version = "~> 3.6"
     }
   }
 }
@@ -14,7 +14,7 @@ module "regions" {
 # This local variable is used to filter out regions in the United States that do not have zones.
 locals {
   us_regions_with_zones = [
-    for v in module.regions.regions_by_geography["United States"] : v if length(v.zones) > 1
+    for v in module.regions.regions_by_geography["United States"] : v if zones != null
   ]
 }
 
