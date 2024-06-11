@@ -76,12 +76,22 @@ jobs:
         working-directory: ${{ github.workspace }}
 
       - name: commit changes & create PR
+        id: pr
+        if: env.UPDATED == '1'
         run: |
           if [[ -n $(git status -suno) ]]; then
             git commit -m "feat: update data from Azure"
             git push origin update${{ github.run_id }}
-            gh pr create --title "feat: update data from Azure" --body "Updated from GH run id: ${{ github.run_id }}" --base main --head update${{ github.run_id }}
+            PR_URL=$(gh pr create --title "feat: update data from Azure" --body "Updated from GH run id: ${{ github.run_id }}" --base main --head update${{ github.run_id }})
+            echo pull-request-number=$(gh pr view $PR_URL --json number | jq -r '.number') >> "$GITHUB_OUTPUT"
           fi
+        env:
+          GITHUB_TOKEN: ${{ steps.generate-token.outputs.token }}
+
+      - name: close and comment out of date prs
         if: env.UPDATED == '1'
+        run: |
+          PULL_REQUESTS=$(gh pr list --search "feat: update data from Azure" --json number,headRefName)
+          echo "$PULL_REQUESTS" | jq -r '.[] | select(.number != ${{ steps.pr.outputs.pull-request-number }}) | .number' | xargs -I {} gh pr close {} --delete-branch --comment "Supersceeded by #${{ steps.pr.outputs.pull-request-number }}"
         env:
           GITHUB_TOKEN: ${{ steps.generate-token.outputs.token }}
