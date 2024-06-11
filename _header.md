@@ -9,7 +9,7 @@ The module outputs a list of objects with the following attributes:
 - `paired_region_name` - The name of the region paired with this region.  May be `null` if the region has no pair.
 - `geography` - The geography of the region.
 - `geography_group` - The geography group of the region.
-- `zones` - A list of the availability zones in the region. Will be empty if the region does not support zones.
+- `zones` - A list of the availability zones in the region. Will be `null` if the region does not support zones.
 
 This data is the further composed into useful maps keyed by region name and region display name.
 
