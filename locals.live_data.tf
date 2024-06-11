@@ -11,7 +11,6 @@ locals {
       recommended        = location.metadata.regionCategory == "Recommended"
     } if location.metadata.regionType == "Physical"
   ] : null
-
   live_zonemappings_list = !var.use_cached_data ? tolist(flatten([
     for resource_type in jsondecode(one(data.azapi_resource_action.compute_provider).output).resourceTypes : [
       for mapping in resource_type.zoneMappings : [{

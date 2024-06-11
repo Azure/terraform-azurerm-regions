@@ -13,8 +13,8 @@ module "regions" {
 }
 
 resource "random_integer" "region_index" {
-  min = 0
   max = length(module.regions.regions) - 1
+  min = 0
 }
 
 output "random_region" {

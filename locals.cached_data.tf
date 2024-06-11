@@ -11,7 +11,6 @@ locals {
       recommended        = location.metadata.regionCategory == "Recommended"
     } if location.metadata.regionType == "Physical"
   ])
-
   cached_zonemappings_list = tolist(flatten([
     for resource_type in local.regions_zonemappings_cached.resourceTypes : [
       for mapping in resource_type.zoneMappings : [{
