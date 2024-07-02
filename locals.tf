@@ -20,7 +20,7 @@ locals {
     merge(
       location,
       {
-        zones = lookup(local.region_to_zones_map, location.display_name, null)
+        zones = lookup(local.region_to_zones_map, location.display_name, tolist(null))
       }
     )
   ]
