@@ -15,7 +15,7 @@ locals {
     for resource_type in jsondecode(one(data.azapi_resource_action.compute_provider).output).resourceTypes : [
       for mapping in resource_type.zoneMappings : [{
         location = mapping.location
-        zones    = sort([for zone in mapping.zones : tonumber(zone)])
+        zones    = sort([for zone in mapping.zones : zone])
       }]
     ] if resource_type.resourceType == "virtualMachines"
   ])) : null
