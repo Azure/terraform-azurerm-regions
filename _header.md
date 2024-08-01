@@ -1,5 +1,9 @@
 # Azure Regions and Availability Zones module
 
+> [!WARNING]
+> This module has been ported to Azure Verified Modules and will be archived in the near future.
+> <https://registry.terraform.io/modules/Azure/avm-utl-regions/azurerm>
+
 This module provides an output of all Azure regions and availability zones.
 
 The module outputs a list of objects with the following attributes:
